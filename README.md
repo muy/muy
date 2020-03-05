@@ -1,2 +1,2 @@
-# Multei UI
-Multei User Interface Library, based on Material UI
+# MUY
+Build websites & apps with Gatsby & Material UI. Pronounced /ˈɛmˈjuːˈwaɪ/
