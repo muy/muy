@@ -1,0 +1,22 @@
+{
+  "name": "muy-root",
+  "version": "0.0.0",
+  "description": "Muy main package",
+  "main": "dist/index.js",
+  "keywords": [
+    "muy"
+  ],
+  "author": "Muy",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muy/muy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muy/muy/issues"
+  },
+  "homepage": "https://github.com/muy/muy#readme"
+}
