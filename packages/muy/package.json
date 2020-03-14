@@ -28,7 +28,7 @@
     "@material-ui/core": "4.9.5",
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-node-resolve": "7.1.1",
-    "core-js": "3",
+    "core-js": "3.6.4",
     "react": "16.13.0",
     "rollup": "2.0.6",
     "rollup-plugin-babel": "4.4.0"
