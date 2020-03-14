@@ -1,5 +1,6 @@
 {
   "name": "muy-root",
+  "private": false,
   "version": "0.0.0",
   "description": "Muy main package",
   "main": "dist/index.js",
@@ -9,6 +10,7 @@
   "author": "Muy",
   "license": "ISC",
   "scripts": {
+    "alex": "alex .",
     "bootstrap": "lerna bootstrap",
     "prewatch": "npm run bootstrap",
     "watch": "lerna exec --parallel -- rollup -f cjs -i src/index.js -o dist/index.js -w"
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/muy/muy#readme",
   "devDependencies": {
+    "alex": "8.1.1",
     "lerna": "3.20.2",
     "rollup": "2.0.6"
   }
