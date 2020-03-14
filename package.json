@@ -12,6 +12,7 @@
   "scripts": {
     "alex": "alex .",
     "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
     "prewatch": "npm run bootstrap",
     "watch": "lerna exec --parallel -- rollup -f cjs -i src/index.js -o dist/index.js -w"
   },
