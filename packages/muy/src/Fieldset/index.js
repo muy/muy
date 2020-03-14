@@ -1,4 +1,5 @@
 import React from "react"
+import Box from "@material-ui/core/Box"
 import clsx from "clsx"
 import makeStyles from "@material-ui/core/styles/makeStyles"
 
@@ -24,12 +25,13 @@ const useStyles = makeStyles(theme => ({
 const Fieldset = ({ variant, ...props }) => {
     const classes = useStyles()
     return (
-        <fieldset
+        <Box
             className={clsx(
                 classes.root,
                 variant === "borderNone" && classes.borderNone,
                 variant === "borderSolid" && classes.borderSolid
             )}
+            component="fieldset"
             {...props}
         />
     )
