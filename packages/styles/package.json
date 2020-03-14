@@ -19,7 +19,8 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,6 @@
   },
   "devDependencies": {
     "rollup": "2.0.6"
-  }
+  },
+  "gitHead": "8779e6368801f2717696621c982cd71e1f7bbd19"
 }
