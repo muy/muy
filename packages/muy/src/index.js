@@ -1,3 +1,4 @@
 import Blockquote from "./Blockquote";
+import Fieldset from "./Fieldset";
 
-export { Blockquote }
+export { Blockquote, Fieldset }
