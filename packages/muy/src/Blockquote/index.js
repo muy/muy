@@ -1,4 +1,5 @@
 import React from "react"
+import Box from "@material-ui/core/Box"
 import makeStyles from "@material-ui/core/styles/makeStyles"
 
 const useStyles = makeStyles(theme => ({
@@ -13,7 +14,7 @@ const useStyles = makeStyles(theme => ({
 
 const Blockquote = props => {
     const classes = useStyles()
-    return <blockquote className={classes.root} {...props} />
+    return <Box className={classes.root} component="blockquote" {...props} />
 }
 
 export default Blockquote

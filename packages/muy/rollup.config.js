@@ -23,7 +23,11 @@ const plugins = [
 ]
 
 const external = [
-    'react', 'react-dom', 'prop-types', '@material-ui/core/styles/makeStyles'
+    '@material-ui/core/Box',
+    '@material-ui/core/styles/makeStyles',
+    'prop-types',
+    'react',
+    'react-dom'
 ]
 
 export default [
