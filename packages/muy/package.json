@@ -2,13 +2,15 @@
   "name": "muy-root",
   "version": "0.0.0",
   "description": "Muy main package",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "keywords": [
     "muy"
   ],
   "author": "Muy",
   "license": "ISC",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,20 @@
   "bugs": {
     "url": "https://github.com/muy/muy/issues"
   },
-  "homepage": "https://github.com/muy/muy#readme"
+  "homepage": "https://github.com/muy/muy#readme",
+  "devDependencies": {
+    "@babel/core": "7.8.7",
+    "@babel/preset-env": "7.8.7",
+    "@babel/preset-react": "7.8.3",
+    "@material-ui/core": "4.9.5",
+    "@rollup/plugin-commonjs": "11.0.2",
+    "@rollup/plugin-node-resolve": "7.1.1",
+    "core-js": "3",
+    "react": "16.13.0",
+    "rollup": "2.0.6",
+    "rollup-plugin-babel": "4.4.0"
+  },
+  "files": [
+    "dist"
+  ]
 }
