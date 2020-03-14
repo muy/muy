@@ -1,7 +1,7 @@
 import React from "react";
 import renderer from 'react-test-renderer';
 
-import Blockquote from ".";
+import Blockquote from "../../lib/Blockquote";
 
 describe('<Blockquote />', () => {
     it('renders correctly', () => {
