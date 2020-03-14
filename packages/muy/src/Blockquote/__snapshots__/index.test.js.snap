@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Blockquote component renders correctly 1`] = `
+exports[`<Blockquote /> renders correctly 1`] = `
 <blockquote
   className="makeStyles-root-1"
 />
