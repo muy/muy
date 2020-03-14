@@ -3,11 +3,10 @@ import pkg from './package.json'
 import babel from 'rollup-plugin-babel'
 import commonjs from "@rollup/plugin-commonjs";
 import nodeResolve from '@rollup/plugin-node-resolve';
-
-const input = 'src/index.js'
+import rollupConfig from "../../rollup.config";
 
 const commonJSOptions = {
-    exclude: 'src/**',
+    exclude: 'lib/**',
     namedExports: {
         'react-js': ['isValidElementType'],
         'node_modules/react-is/index.js': ['ForwardRef', 'isFragment', 'isValidElementType']
@@ -31,18 +30,4 @@ const external = [
     'react-dom'
 ]
 
-export default [
-    {
-        input,
-        output: [{
-            file: pkg.main,
-            format: 'cjs'
-        }, {
-            file: pkg.module,
-            format: 'es'
-        }],
-        external,
-        plugins
-    }
-]
-
+export default rollupConfig({external, pkg, plugins})
