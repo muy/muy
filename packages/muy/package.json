@@ -11,7 +11,10 @@
   "license": "ISC",
   "scripts": {
     "build": "rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "testc": "jest --coverage",
+    "testu": "jest --u",
+    "testw": "jest --watch"
   },
   "repository": {
     "type": "git",
