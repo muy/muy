@@ -15,6 +15,7 @@ import Legend from "./Legend";
 import MainContent from "./MainContent";
 import PageFooter from "./PageFooter";
 import PageHeader from "./PageHeader";
+import * as themes from "@muy/themes";
 
 export {
     Article,
@@ -33,5 +34,6 @@ export {
     Legend,
     MainContent,
     PageFooter,
-    PageHeader
+    PageHeader,
+    themes
 }

@@ -26,6 +26,7 @@ const external = [
     '@material-ui/core/List',
     '@material-ui/core/TextField',
     '@material-ui/core/styles/makeStyles',
+    '@material-ui/core/styles/createMuiTheme',
     'prop-types',
     'react',
     'react-dom'
