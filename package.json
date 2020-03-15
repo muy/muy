@@ -13,7 +13,12 @@
     "alex": "alex .",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
+    "prepare": "lerna run prepare",
+    "pretest": "lerna run pretest",
+    "preversion": "lerna run preversion",
     "prewatch": "npm run bootstrap",
+    "test": "lerna run test",
+    "version": "lerna run version",
     "watch": "lerna exec --parallel -- rollup -f cjs -i src/index.js -o dist/index.js -w"
   },
   "repository": {
@@ -26,7 +31,13 @@
   "homepage": "https://github.com/muy/muy#readme",
   "devDependencies": {
     "alex": "8.1.1",
+    "husky": "4.2.3",
     "lerna": "3.20.2",
     "rollup": "2.0.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
   }
 }
