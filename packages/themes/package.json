@@ -19,7 +19,8 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
@@ -37,5 +38,6 @@
     "@material-ui/core": "4.9.5",
     "jest": "25.1.0",
     "rollup": "2.0.6"
-  }
+  },
+  "gitHead": "a03ce3697e0d27d39b2c6fe956953caf70401ef6"
 }
