@@ -4,8 +4,6 @@ import makeStyles from "@material-ui/core/styles/makeStyles"
 
 const useStyles = makeStyles(theme => ({
     root: {
-        margin: `0 ${theme.spacing(3)}px ${theme.spacing(3)}px`,
-        padding: 0,
         "& *:last-child": {
             marginBottom: 0,
         },
@@ -14,7 +12,13 @@ const useStyles = makeStyles(theme => ({
 
 const Blockquote = props => {
     const classes = useStyles()
-    return <Box className={classes.root} component="blockquote" {...props} />
+    return <Box className={classes.root}
+                component="blockquote"
+                mb={3}
+                mr={3}
+                mt={0}
+                p={0}
+                {...props} />
 }
 
 export default Blockquote

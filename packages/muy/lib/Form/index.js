@@ -11,7 +11,7 @@ const useStyles = makeStyles(theme => ({
 
 const Form = props => {
     const classes = useStyles()
-    return <Box className={classes.root} component="form" {...props} />
+    return <Box className={classes.root} component="form" display="block" {...props} />
 }
 
 export default Form

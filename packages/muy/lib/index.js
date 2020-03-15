@@ -10,6 +10,7 @@ import Header from "./Header";
 import HorizontalList from "./HorizontalList";
 import Iframe from "./Iframe";
 import Image from "./Image";
+import Legend from "./Legend";
 import MainContent from "./MainContent";
 import PageFooter from "./PageFooter";
 import PageHeader from "./PageHeader";
@@ -27,6 +28,7 @@ export {
     HorizontalList,
     Iframe,
     Image,
+    Legend,
     MainContent,
     PageFooter,
     PageHeader
