@@ -1,3 +1,4 @@
+import Article from "./Article";
 import Blockquote from "./Blockquote";
 import CarPlateField from "./CarPlateField";
 import EmbedGoogleMap from "./EmbedGoogleMap";
@@ -16,6 +17,7 @@ import PageFooter from "./PageFooter";
 import PageHeader from "./PageHeader";
 
 export {
+    Article,
     Blockquote,
     CarPlateField,
     EmbedGoogleMap,
