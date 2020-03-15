@@ -26,10 +26,17 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "dev": "npm run develop",
+    "develop": "rollup -c -w",
+    "prepare": "npm run build",
+    "pretest": "npm run build",
+    "preversion": "npm test",
+    "start": "npm run develop",
     "test": "jest",
     "testc": "jest --coverage",
     "testu": "jest --u",
-    "testw": "jest --watch"
+    "testw": "jest --watch",
+    "version": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/muy/muy/issues"
