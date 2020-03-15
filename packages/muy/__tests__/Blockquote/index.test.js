@@ -1,11 +1,9 @@
 import React from "react";
-import renderer from 'react-test-renderer';
-
 import Blockquote from "../../lib/Blockquote";
+import rendersCorrectly from "../../test-utils/rendersCorrectly";
 
 describe('<Blockquote />', () => {
-    it('renders correctly', () => {
-        const tree = renderer.create(<Blockquote/>).toJSON()
-        expect(tree).toMatchSnapshot()
+    it("renders correctly", () => {
+        rendersCorrectly(<Blockquote/>)
     })
 })
