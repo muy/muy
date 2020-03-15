@@ -24,6 +24,7 @@ const plugins = [
 const external = [
     '@material-ui/core/Box',
     '@material-ui/core/List',
+    '@material-ui/core/TextField',
     '@material-ui/core/styles/makeStyles',
     'prop-types',
     'react',
