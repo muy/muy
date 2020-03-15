@@ -1,6 +1,6 @@
-import getTheme, { getThemeOptions } from "./getTheme";
+import getTheme from "./getTheme";
+import getThemeOptions from "./getThemeOptions";
 import nativeFontFamily from "./nativeFontFamily";
 
 export { getTheme, getThemeOptions, nativeFontFamily }
 
-export default getTheme
