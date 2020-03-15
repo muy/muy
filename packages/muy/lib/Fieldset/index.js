@@ -2,27 +2,27 @@ import React from "react"
 import Box from "@material-ui/core/Box"
 import clsx from "clsx"
 import makeStyles from "@material-ui/core/styles/makeStyles"
+import PropTypes from "prop-types"
 
 /**
  * @todo Migrate some Fieldset styles to Box properties
  * @type {(props?: any) => ClassNameMap<string>}
  */
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
     borderNone: {
         borderStyle: 'none'
     },
     borderSolid: {
+        borderColor: theme.palette.divider,
         borderStyle: 'solid'
     }
-})
+}))
 
 const Fieldset = ({ className, variant, ...props }) => {
     const classes = useStyles()
     return (
         <Box
-            border={variant === "borderSolid" ? 0 : 1}
-            borderColor={variant === "borderSolid" && "divider"}
-            borderStyle={variant === "borderSolid" ? "solid" : "none"}
+            border={variant === "borderSolid" ? 1 : 0}
             className={clsx(
                 className,
                 variant === "borderNone" && classes.borderNone,
@@ -41,3 +41,11 @@ const Fieldset = ({ className, variant, ...props }) => {
 }
 
 export default Fieldset
+
+Fieldset.defaultProps = {
+    variant: null
+}
+
+Fieldset.propTypes = {
+    variant: PropTypes.string
+}
