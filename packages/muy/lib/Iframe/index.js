@@ -1,24 +1,28 @@
 import React from "react"
 import makeStyles from "@material-ui/core/styles/makeStyles"
-import clsx from "clsx"
 import objectFitCover from "@muy/styles/lib/objectFitCover";
+import Box from "@material-ui/core/Box";
 
 const useStyles = makeStyles(theme => ({
-    root: {
-        border: 0,
-        margin: `0 0 ${theme.spacing(3)}`,
-        padding: 0,
-    },
     cover: objectFitCover,
 }))
 
 const Iframe = ({ title, variant, ...props }) => {
     const classes = useStyles()
     return (
-        <iframe
-            className={clsx(classes.root, variant === "cover" && classes.cover)}
-            frameBorder="0"
+        <Box
+            border={0}
+            className={variant === "cover" && classes.cover}
+            component="iframe"
+            display="inline"
+            frameBorder={0}
+            height={variant === 'cover' && '100%'}
+            mb={0}
+            mr={0}
+            mt={0}
+            p={0}
             title={title}
+            width={variant === 'cover' && '100%'}
             {...props}
         />
     )

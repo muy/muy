@@ -1,17 +1,14 @@
 import React from "react"
 import Box from "@material-ui/core/Box"
-import makeStyles from "@material-ui/core/styles/makeStyles"
 
-const useStyles = makeStyles(theme => ({
-    root: {
-        margin: `0 0 ${theme.spacing(3)}px`,
-        padding: 0,
-    },
-}))
-
-const Form = props => {
-    const classes = useStyles()
-    return <Box className={classes.root} component="form" display="block" {...props} />
-}
+const Form = props => (
+    <Box component="form"
+         display="block"
+         mb={3}
+         mr={0}
+         mt={0}
+         p={0}
+         {...props} />
+)
 
 export default Form
