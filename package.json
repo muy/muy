@@ -13,6 +13,7 @@
     "alex": "alex .",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
+    "deploy": "lerna publish",
     "prepare": "lerna run prepare",
     "pretest": "lerna run pretest",
     "preversion": "lerna run preversion",
