@@ -20,7 +20,7 @@ import MuiTypography from "@muy/styles/lib/MuiTypography";
 const getThemeOptions = ({baseTheme}) => ({
     ...baseTheme,
     typography: {
-        baseTypography,
+        ...baseTypography,
         ...baseTheme.typography
     },
     overrides: {
