@@ -24,7 +24,6 @@ const Fieldset = ({ className, variant, ...props }) => {
             borderColor={variant === "borderSolid" && "divider"}
             borderStyle={variant === "borderSolid" ? "solid" : "none"}
             className={clsx(
-                classes,
                 className,
                 variant === "borderNone" && classes.borderNone,
                 variant === "borderSolid" && classes.borderSolid
