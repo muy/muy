@@ -1,7 +1,9 @@
 import createMuiTheme from "@material-ui/core/styles/createMuiTheme"
 
 const getTheme = ({baseTheme}) => createMuiTheme({
+    ...baseTheme,
     typography: {
+        ...baseTheme.typography,
         body2: {
             "-moz-font-feature-settings": '"kern", "liga", "clig", "calt"',
             "-ms-font-feature-settings": '"kern", "liga", "clig", "calt"',
@@ -350,8 +352,7 @@ const getTheme = ({baseTheme}) => createMuiTheme({
                 },
             },
         },
-    },
-    ...baseTheme
+    }
 })
 
 export default getTheme
