@@ -4,10 +4,6 @@ import clsx from "clsx"
 import makeStyles from "@material-ui/core/styles/makeStyles"
 import PropTypes from "prop-types"
 
-/**
- * @todo Migrate some Fieldset styles to Box properties
- * @type {(props?: any) => ClassNameMap<string>}
- */
 const useStyles = makeStyles(theme => ({
     borderNone: {
         borderStyle: 'none'
