@@ -1,5 +1,6 @@
 import Blockquote from "./Blockquote";
 import CarPlateField from "./CarPlateField";
+import EmbedGoogleMap from "./EmbedGoogleMap";
 import Fieldset from "./Fieldset";
 import Figure from "./Figure";
 import FileInput from "./FileInput";
@@ -12,6 +13,7 @@ import MainContent from "./MainContent";
 export {
     Blockquote,
     CarPlateField,
+    EmbedGoogleMap,
     Fieldset,
     Figure,
     FileInput,
