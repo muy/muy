@@ -15,7 +15,7 @@
     "build": "lerna run build",
     "deploy": "lerna publish",
     "format": "prettier --write packages/*/{lib,lib/**}/*.{js,jsx}",
-    "precommit": "npm run alex && npm test",
+    "precommit": "npm run alex",
     "prepare": "lerna run prepare",
     "prepush": "npm run alex && npm test",
     "pretest": "lerna run pretest",
