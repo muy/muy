@@ -1,6 +1,6 @@
-import pkg from './package.json'
-import rollupConfig from "../../rollup.config";
+import pkg from "./package.json"
+import rollupConfig from "../../rollup.config"
 
-const external = ['@material-ui/core/styles/createMuiTheme']
+const external = ["@material-ui/core/styles/createMuiTheme"]
 
-export default rollupConfig({external, pkg})
+export default rollupConfig({ external, pkg })
