@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Paragraph /> component renders correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+/>
+`;
