@@ -55,7 +55,6 @@ export {
   Legend,
   ListItemWithText,
   MainContent,
-  MainContent,
   PageFooter,
   PageHeader,
   Paragraph,
