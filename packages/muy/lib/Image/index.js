@@ -1,7 +1,7 @@
 import React from "react"
 import clsx from "clsx"
 import makeStyles from "@material-ui/core/styles/makeStyles"
-import imageStyle from "@muy/styles/lib/imageStyle"
+import { imageStyle } from "@muy/styles"
 
 const useStyles = makeStyles(imageStyle)
 
