@@ -1,7 +1,7 @@
 const MuiTableHead = {
-    root: {
-        textAlign: "left",
-    },
-};
+  root: {
+    textAlign: "left",
+  },
+}
 
 export default MuiTableHead

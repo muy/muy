@@ -1,6 +1,6 @@
-import React from "react";
-import Box from "@material-ui/core/Box";
+import React from "react"
+import Box from "@material-ui/core/Box"
 
-const Header = (props) => <Box component="header" display="block" {...props} />
+const Header = props => <Box component="header" display="block" {...props} />
 
 export default Header
