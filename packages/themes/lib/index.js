@@ -1,5 +1,5 @@
 import getTheme from "./getTheme"
 import getThemeOptions from "./getThemeOptions"
-import nativeFontFamily from "./nativeFontFamily"
+import getNativeFontFamily from "./getNativeFontFamily"
 
-export { getTheme, getThemeOptions, nativeFontFamily }
+export { getTheme, getThemeOptions, getNativeFontFamily }
