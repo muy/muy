@@ -1,13 +1,14 @@
-import Link from "@material-ui/core/Link"
 import Blockquote from "../Blockquote"
+import Divider from "@material-ui/core/Divider"
 import Heading from "../Heading"
+import Image from "../Image"
+import Link from "@material-ui/core/Link"
+import List from "@material-ui/core/List"
 import ListItemWithText from "../ListItemWithText"
 import Paragraph from "../Paragraph"
 import Table from "@material-ui/core/Table"
 import TableCell from "@material-ui/core/TableCell"
 import TableRow from "@material-ui/core/TableRow"
-import List from "@material-ui/core/List"
-import Divider from "@material-ui/core/Divider"
 
 const useMDXComponents = () => ({
   a: Link,
