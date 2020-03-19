@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading should render correctly with level 1 and children 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-h1"
+>
+  Heading text
+</h1>
+`;
+
+exports[`Heading should render correctly with level 1 and no props 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-h1"
+/>
+`;
+
+exports[`Heading should render correctly with no properties 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-h1"
+/>
+`;
