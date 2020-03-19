@@ -1,6 +1,6 @@
 import React from "react"
 import makeStyles from "@material-ui/core/styles/makeStyles"
-import objectFitCover from "@muy/styles/lib/objectFitCover"
+import { objectFitCover } from "@muy/styles"
 import Box from "@material-ui/core/Box"
 
 const useStyles = makeStyles(theme => ({
