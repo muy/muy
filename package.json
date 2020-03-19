@@ -14,6 +14,8 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "deploy": "lerna publish",
+    "format": "prettier --write packages/*/{lib,lib/**}/*.{js,jsx}",
+    "precommit": "npm run alex && npm test",
     "prepare": "lerna run prepare",
     "pretest": "lerna run pretest",
     "preversion": "lerna run preversion",
@@ -34,11 +36,12 @@
     "alex": "8.1.1",
     "husky": "4.2.3",
     "lerna": "3.20.2",
+    "prettier": "1.19.1",
     "rollup": "2.0.6"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "npm run precommit"
     }
   }
 }
