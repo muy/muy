@@ -1,4 +1,4 @@
-import baseTypography from "@muy/styles/lib/baseTypography"
+import { baseTypography } from "@muy/styles"
 import MuiButton from "@muy/styles/lib/MuiButton"
 import MuiContainer from "@muy/styles/lib/MuiContainer"
 import MuiCssBaseline from "@muy/styles/lib/MuiCssBaseline"
