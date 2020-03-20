@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SiteTitle /> should render correctly 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-body1"
+>
+  <a
+    aria-current="page"
+    className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+    href="/"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    style={Object {}}
+    target="_self"
+  />
+</h1>
+`;

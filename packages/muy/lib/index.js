@@ -24,6 +24,7 @@ import PageHeader from "./PageHeader"
 import Paragraph from "./Paragraph"
 import Question from "./Question"
 import QuestionText from "./QuestionText"
+import SiteTitle from "./SiteTitle"
 import { getTheme, getThemeOptions, getNativeFontFamily } from "@muy/themes"
 import useMDXComponents from "./hooks/useMDXComponents"
 
@@ -60,6 +61,7 @@ export {
   Paragraph,
   Question,
   QuestionText,
+  SiteTitle,
   getNativeFontFamily,
   getTheme,
   getThemeOptions,
