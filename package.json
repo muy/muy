@@ -13,6 +13,7 @@
     "alex": "alex .",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
+    "changelog": "lerna-changelog",
     "deploy": "lerna publish",
     "format": "prettier --write packages/*/{lib,lib/**}/*.{js,jsx}",
     "postinstall": "npm run bootstrap",
@@ -38,6 +39,7 @@
     "alex": "8.1.1",
     "husky": "4.2.3",
     "lerna": "3.20.2",
+    "lerna-changelog": "1.0.1",
     "prettier": "1.19.1",
     "rollup": "2.1.0"
   },
@@ -46,9 +48,6 @@
       "pre-commit": "npm run precommit",
       "pre-push": "npm run prepush"
     }
-  },
-  "dependencies": {
-    "lerna-changelog": "1.0.1"
   },
   "changelog": {
     "labels": {
