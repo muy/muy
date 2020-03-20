@@ -6,12 +6,21 @@ const defaultProps = {
   target: "_self",
 }
 
-const GatsbyLink = ({ rel, target = defaultProps.target, to, ...props }) => (
+const GatsbyLink = ({
+  color,
+  rel,
+  target = defaultProps.target,
+  to,
+  underline,
+  ...props
+}) => (
   <Link
+    color={color}
     component={GatsbyLinkComponent}
     rel={target === "_blank" ? `noopener noreferer ${rel}` : rel}
     target={target}
     to={to}
+    underline={underline}
     {...props}
   />
 )
