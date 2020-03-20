@@ -46,5 +46,16 @@
       "pre-commit": "npm run precommit",
       "pre-push": "npm run prepush"
     }
+  },
+  "dependencies": {
+    "lerna-changelog": "1.0.1"
+  },
+  "changelog": {
+    "labels": {
+      "bug": "Bug Fix",
+      "dependencies": "Dependency update",
+      "documentation": "Docs",
+      "enhancement": "New Feature"
+    }
   }
 }
