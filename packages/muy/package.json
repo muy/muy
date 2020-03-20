@@ -51,13 +51,13 @@
     "@rollup/plugin-node-resolve": "7.1.1",
     "clsx": "1.1.0",
     "core-js": "3.6.4",
-    "gatsby": "2.19.45",
+    "gatsby": "2.20.2",
     "jest": "25.1.0",
     "prop-types": "15.7.2",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
-    "react-test-renderer": "16.13.0",
-    "rollup": "2.0.6",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-test-renderer": "16.13.1",
+    "rollup": "2.1.0",
     "rollup-plugin-babel": "4.4.0"
   },
   "gitHead": "a03ce3697e0d27d39b2c6fe956953caf70401ef6"
