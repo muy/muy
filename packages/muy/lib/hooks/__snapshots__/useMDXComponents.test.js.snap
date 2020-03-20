@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useMDXComponent hook H1 component should render correctly 1`] = `<h1 />`;
+
+exports[`useMDXComponent hook H2 component should render correctly 1`] = `<h2 />`;
+
+exports[`useMDXComponent hook H3 component should render correctly 1`] = `<h3 />`;
+
+exports[`useMDXComponent hook H4 component should render correctly 1`] = `<h4 />`;
+
+exports[`useMDXComponent hook H5 component should render correctly 1`] = `<h5 />`;
+
+exports[`useMDXComponent hook H6 component should render correctly 1`] = `<h6 />`;
