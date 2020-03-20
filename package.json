@@ -15,6 +15,7 @@
     "build": "lerna run build",
     "deploy": "lerna publish",
     "format": "prettier --write packages/*/{lib,lib/**}/*.{js,jsx}",
+    "postinstall": "npm run bootstrap",
     "precommit": "npm run alex && npm test",
     "prepare": "lerna run prepare",
     "prepush": "npm run alex && npm test",
