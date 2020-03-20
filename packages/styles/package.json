@@ -28,6 +28,7 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "pretest": "npm run build",
     "test": "jest"
   },
   "bugs": {
