@@ -6,9 +6,14 @@ const defaultProps = {
   color: "inherit",
 }
 
-const SiteTitle = ({ color = defaultProps.color, children, ...props }) => (
-  <H1 variant={"body1"}>
-    <GatsbyLink color={"inherit"} to={"/"} underline={"hover"}>
+const SiteTitle = ({
+  color = defaultProps.color,
+  children,
+  HeadingProps,
+  ...props
+}) => (
+  <H1 variant={"body1"} {...HeadingProps}>
+    <GatsbyLink color={"inherit"} to={"/"} underline={"hover"} {...props}>
       {children}
     </GatsbyLink>
   </H1>
