@@ -1,4 +1,6 @@
+import React from "react"
 import useMDXComponents from "./useMDXComponents"
+import rendersCorrectly from "../../test-utils/rendersCorrectly"
 
 describe("Use MDX components hook", () => {
   let components
@@ -30,7 +32,10 @@ describe("Use MDX components hook", () => {
     "ul",
   ]
 
-  it.each(expectedProperties)("should define component for %p", property => {
-    expect(components).toHaveProperty(property)
+  describe.each(expectedProperties)("%p property", property => {
+    it("should be a component and render correctly", () => {
+      const Component = components[property]
+      rendersCorrectly(<Component />)
+    })
   })
 })

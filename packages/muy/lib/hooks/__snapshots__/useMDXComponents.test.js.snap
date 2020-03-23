@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Use MDX components hook "a" property should be a component and render correctly 1`] = `
+<a
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+  onBlur={[Function]}
+  onFocus={[Function]}
+/>
+`;
+
+exports[`Use MDX components hook "blockquote" property should be a component and render correctly 1`] = `
+<blockquote
+  className="MuiBox-root MuiBox-root-39 makeStyles-root-37"
+/>
+`;
+
+exports[`Use MDX components hook "h1" property should be a component and render correctly 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-h1"
+/>
+`;
+
+exports[`Use MDX components hook "h2" property should be a component and render correctly 1`] = `
+<h2
+  className="MuiTypography-root MuiTypography-h2"
+/>
+`;
+
+exports[`Use MDX components hook "h3" property should be a component and render correctly 1`] = `
+<h3
+  className="MuiTypography-root MuiTypography-h3"
+/>
+`;
+
+exports[`Use MDX components hook "h4" property should be a component and render correctly 1`] = `
+<h4
+  className="MuiTypography-root MuiTypography-h4"
+/>
+`;
+
+exports[`Use MDX components hook "h5" property should be a component and render correctly 1`] = `
+<h5
+  className="MuiTypography-root MuiTypography-h5"
+/>
+`;
+
+exports[`Use MDX components hook "h6" property should be a component and render correctly 1`] = `
+<h6
+  className="MuiTypography-root MuiTypography-h6"
+/>
+`;
+
+exports[`Use MDX components hook "hr" property should be a component and render correctly 1`] = `
+<hr
+  className="MuiDivider-root"
+/>
+`;
+
+exports[`Use MDX components hook "img" property should be a component and render correctly 1`] = `
+<img
+  className="makeStyles-root-47"
+/>
+`;
+
+exports[`Use MDX components hook "li" property should be a component and render correctly 1`] = `
+<li
+  className="MuiListItem-root MuiListItem-gutters"
+  disabled={false}
+>
+  <div
+    className="MuiListItemText-root"
+  />
+</li>
+`;
+
+exports[`Use MDX components hook "p" property should be a component and render correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+/>
+`;
+
+exports[`Use MDX components hook "table" property should be a component and render correctly 1`] = `
+<table
+  className="MuiTable-root"
+/>
+`;
+
+exports[`Use MDX components hook "td" property should be a component and render correctly 1`] = `
+<td
+  aria-sort={null}
+  className="MuiTableCell-root"
+/>
+`;
+
+exports[`Use MDX components hook "tr" property should be a component and render correctly 1`] = `
+<tr
+  className="MuiTableRow-root"
+/>
+`;
+
+exports[`Use MDX components hook "ul" property should be a component and render correctly 1`] = `
+<ul
+  className="MuiList-root MuiList-padding"
+/>
+`;
