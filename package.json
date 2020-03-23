@@ -17,6 +17,7 @@
     "deploy": "lerna publish",
     "format": "prettier --write packages/*/{lib,lib/**}/*.{js,jsx}",
     "postinstall": "npm run bootstrap",
+    "postcheckout": "npm run bootstrap",
     "precommit": "npm run alex && npm test",
     "prepare": "lerna run prepare",
     "prepush": "npm run alex && npm test",
@@ -46,7 +47,8 @@
   "husky": {
     "hooks": {
       "pre-commit": "npm run precommit",
-      "pre-push": "npm run prepush"
+      "pre-push": "npm run prepush",
+      "post-checkout": "npm run postcheckout"
     }
   },
   "changelog": {
