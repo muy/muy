@@ -1,5 +1,5 @@
 import React from "react"
-import { GatsbyLink } from "../index"
+import GatsbyLink from "../GatsbyLink"
 import { H1 } from "../Heading"
 
 const defaultProps = {
