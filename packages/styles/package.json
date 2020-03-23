@@ -35,7 +35,7 @@
     "url": "https://github.com/muy/muy/issues"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.8.7",
+    "@babel/preset-env": "7.9.0",
     "babel-jest": "25.1.0",
     "jest": "25.1.0",
     "rollup": "2.1.0"
