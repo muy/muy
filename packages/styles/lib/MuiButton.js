@@ -1,8 +1,13 @@
-const MuiButton = {
+let MuiButton
+MuiButton = ({ palette, spacing }) => ({
   root: {
+    cursor: "pointer",
     font: "inherit",
+    fontWeight: "bold",
+    lineHeight: `${spacing(2.5)}px`,
     margin: 0,
     overflow: "visible",
+    textDecoration: "none",
     '&[type="button"], &[type="reset"], &[type="submit"], html &[type="button"]': {
       "-webkit-appearance": "button",
       "&::-moz-focus-inner": {
@@ -14,6 +19,16 @@ const MuiButton = {
       },
     },
   },
-}
+  outlined: {
+    backgroundColor: "transparent",
+    borderRadius: `${spacing(0.5)}px`,
+    borderStyle: "solid",
+    borderWidth: `${spacing(0.5)}px`,
+  },
+  outlinedPrimary: {
+    borderColor: palette["primary"],
+    color: palette["primary"],
+  },
+})
 
 export default MuiButton
