@@ -15,8 +15,8 @@ import MuiSelect from "./MuiSelect"
 import MuiTable from "./MuiTable"
 import MuiTableCell from "./MuiTableCell"
 import MuiTableHead from "./MuiTableHead"
+import MuiTypography from "./MuiTypography/index"
 import MuiToolbar from "./MuiToolbar"
-import MuiTypography from "./MuiTypography"
 import objectFitCover from "./objectFitCover"
 
 export {
