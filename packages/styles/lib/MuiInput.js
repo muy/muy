@@ -1,4 +1,8 @@
-const MuiInput = {
+const MuiInput = (theme) => ({
+  input: {
+    fontWeight: "normal",
+    lineHeight: theme.spacing(2.5),
+  },
   inputTypeSearch: {
     "-webkit-appearance": "textfield",
     outlineOffset: "-2px",
@@ -6,6 +10,6 @@ const MuiInput = {
   "&::-webkit-search-cancel-button, &::-webkit-search-decoration": {
     "-webkit-appearance": "none",
   },
-}
+})
 
 export default MuiInput
