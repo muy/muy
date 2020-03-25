@@ -12,7 +12,7 @@ const SiteTitle = ({
   HeadingProps,
   ...props
 }) => (
-  <H1 variant={"body1"} {...HeadingProps}>
+  <H1 gutterBottom={false} variant={"body1"} {...HeadingProps}>
     <GatsbyLink color={"inherit"} to={"/"} underline={"hover"} {...props}>
       {children}
     </GatsbyLink>
