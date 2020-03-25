@@ -39,7 +39,7 @@ const getThemeOptions = ({ baseTheme }) => ({
     MuiTable: MuiTable(baseTheme),
     MuiTableCell,
     MuiTableHead,
-    MuiToolbar: MuiToolbar(theme),
+    MuiToolbar: MuiToolbar(baseTheme),
     MuiTypography: MuiTypography(baseTheme),
   },
 })
