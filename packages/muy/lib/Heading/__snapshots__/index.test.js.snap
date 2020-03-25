@@ -2,6 +2,7 @@
 
 exports[`<H1 /> component should render correctly 1`] = `
 <H1
+  gutterBottom={false}
   variant="h1"
 />
 `;
@@ -14,6 +15,7 @@ exports[`<H1 /> component should render correctly 2`] = `
 
 exports[`<H2 /> component should render correctly 1`] = `
 <H2
+  gutterBottom={false}
   variant="h2"
 />
 `;
@@ -26,6 +28,7 @@ exports[`<H2 /> component should render correctly 2`] = `
 
 exports[`<H3 /> component should render correctly 1`] = `
 <H3
+  gutterBottom={false}
   variant="h3"
 />
 `;
@@ -38,6 +41,7 @@ exports[`<H3 /> component should render correctly 2`] = `
 
 exports[`<H4 /> component should render correctly 1`] = `
 <H4
+  gutterBottom={false}
   variant="h4"
 />
 `;
@@ -50,6 +54,7 @@ exports[`<H4 /> component should render correctly 2`] = `
 
 exports[`<H5 /> component should render correctly 1`] = `
 <H5
+  gutterBottom={false}
   variant="h5"
 />
 `;
@@ -62,6 +67,7 @@ exports[`<H5 /> component should render correctly 2`] = `
 
 exports[`<H6 /> component should render correctly 1`] = `
 <H6
+  gutterBottom={false}
   variant="h6"
 />
 `;

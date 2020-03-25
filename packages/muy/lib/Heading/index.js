@@ -2,7 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import Typography from "@material-ui/core/Typography"
 
-export const getHnDefaultProps = level => ({
+export const getHnDefaultProps = (level) => ({
+  gutterBottom: false,
   variant: `h${level}`,
 })
 
@@ -15,6 +16,7 @@ const Heading = ({ level, variant, ...props }) => (
 )
 
 const basePropTypes = {
+  gutterBottom: PropTypes.bool,
   variant: PropTypes.string,
 }
 
