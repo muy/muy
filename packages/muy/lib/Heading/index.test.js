@@ -14,12 +14,12 @@ describe("<Heading/> component", () => {
       expect(Heading.defaultProps.level).toEqual(1)
       expect(actual).toEqual(expected)
     })
-    it.each(levels)("should return correct variant for h%d", level => {
+    it.each(levels)("should return correct variant for h%d", (level) => {
       expect(getHnDefaultProps(level).variant).toEqual(`h${level}`)
     })
   })
 
-  describe.each(levels)(`level %p`, level => {
+  describe.each(levels)(`level %p`, (level) => {
     it("should render correctly with children", () => {
       rendersCorrectly(<Heading level={level}>Heading text</Heading>)
     })
