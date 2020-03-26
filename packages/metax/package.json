@@ -1,0 +1,51 @@
+{
+  "name": "metax",
+  "version": "0.7.2",
+  "description": "Add SEO and other metadata tags to your Gatsby website.",
+  "keywords": [
+    "metax",
+    "gatsby",
+    "seo",
+    "metatags",
+    "meta"
+  ],
+  "author": "Muy",
+  "homepage": "https://github.com/muy/muy/tree/master/packages/metax#readme",
+  "license": "ISC",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muy/muy.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build",
+    "start": "npm run dev",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/muy/muy/issues"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.9.0",
+    "@rollup/plugin-commonjs": "11.0.2",
+    "@rollup/plugin-node-resolve": "7.1.1",
+    "gatsby": "2.20.6",
+    "react": "16.13.1",
+    "react-helmet": "5.2.1",
+    "rollup": "2.2.0",
+    "rollup-plugin-babel": "4.4.0"
+  }
+}
