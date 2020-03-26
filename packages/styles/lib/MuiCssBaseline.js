@@ -1,4 +1,4 @@
-const MuiCssBaseline = theme => ({
+const MuiCssBaseline = (theme) => ({
   "@global": {
     html: {
       "-ms-text-size-adjust": "100%;",
@@ -43,7 +43,7 @@ const MuiCssBaseline = theme => ({
       lineHeight: `${theme.spacing(3)}px`,
     },
     code: {
-      backgroundColor: theme.palette["code"].background,
+      backgroundColor: theme.palette.background.default,
       borderRadius: `${theme.spacing(0.5)}px`,
       padding: "0.2em 0",
       "&:before, &:after": {
@@ -77,8 +77,8 @@ const MuiCssBaseline = theme => ({
       padding: 0,
     },
     mark: {
-      backgroundColor: theme.palette["mark"].main,
-      color: theme.palette["mark"].contrastText,
+      backgroundColor: theme.palette.warning["light"],
+      color: theme.palette.text.primary,
     },
     noscript: {
       margin: `0 0 ${theme.spacing(3)}px`,
