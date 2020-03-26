@@ -4,9 +4,14 @@ describe("Theme options", () => {
   const baseTheme = {
     breakpoints: { down: jest.fn(), values: { md: jest.fn() } },
     palette: {
-      code: { background: jest.fn() },
-      mark: { main: jest.fn() },
+      background: {default: jest.fn()},
       primary: jest.fn(),
+      text: {
+        primary: jest.fn()
+      },
+      warning: {
+        light: jest.fn()
+      }
     },
     spacing: jest.fn(),
     typography: {},

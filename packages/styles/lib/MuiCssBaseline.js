@@ -85,7 +85,7 @@ const MuiCssBaseline = (theme) => ({
       padding: 0,
     },
     pre: {
-      background: theme.palette["code"].background,
+      background: theme.palette.background.default,
       borderRadius: `${theme.spacing(0.5)}px`,
       fontSize: "0.85em",
       lineHeight: 1.42,
