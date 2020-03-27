@@ -20,6 +20,7 @@ excluded_words:
   - dev
   - filesystem
   - gatsby
+  - metax
   - muy
   - source
   - typoci
