@@ -27,6 +27,7 @@ import PageHeader from "./PageHeader"
 import Paragraph from "./Paragraph"
 import Question from "./Question"
 import QuestionText from "./QuestionText"
+import SkipToContentLink from "./SkipToContentLink"
 import SiteNav from "./SiteNav"
 import SiteTitle from "./SiteTitle"
 import { getTheme, getThemeOptions, getNativeFontFamily } from "@muy/themes"
@@ -68,6 +69,7 @@ export {
   Paragraph,
   Question,
   QuestionText,
+  SkipToContentLink,
   SiteNav,
   SiteTitle,
   getNativeFontFamily,
