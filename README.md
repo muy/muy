@@ -11,7 +11,7 @@ npm install muy @material-ui/core
 
 ## Troubleshooting
 
-### Fixing build failures
+### Fixing build error
 
 **Given** you have gatsby website with `muy` package installed  
 **When** you run `npm start` and try to open website and you find the following message:

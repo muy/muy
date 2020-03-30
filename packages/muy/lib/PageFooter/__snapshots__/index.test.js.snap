@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageFooter /> component should render correctly 1`] = `
+<footer
+  className="MuiBox-root MuiBox-root-2"
+  itemScope={true}
+  itemType="https://schema.org/WPFooter"
+  role="contentinfo"
+/>
+`;
