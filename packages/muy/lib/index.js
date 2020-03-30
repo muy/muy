@@ -1,5 +1,6 @@
 import Article from "./Article"
 import AnswerWithText from "./AnswerWithText"
+import BackToTopButton from "./BackToTopButton"
 import BirthdayInput from "./BirthdayInput"
 import Blockquote from "./Blockquote"
 import CarPlateField from "./CarPlateField"
@@ -31,6 +32,7 @@ import useMDXComponents from "./hooks/useMDXComponents"
 export {
   AnswerWithText,
   Article,
+  BackToTopButton,
   BirthdayInput,
   Blockquote,
   CarPlateField,
