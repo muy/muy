@@ -9,6 +9,7 @@ const MainContent = ({ id, mt, ...props }) => (
     display="block"
     mt={mt}
     role="main"
+    tabIndex={-1}
     {...props}
   />
 )
