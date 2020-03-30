@@ -4,9 +4,18 @@ import clsx from "clsx"
 import makeStyles from "@material-ui/core/styles/makeStyles"
 import PropTypes from "prop-types"
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
+  root: {
+    marginInlineStart: 0,
+    marginInlineEnd: 0,
+    paddingBlockStart: 0,
+    paddingBlockEnd: 0,
+    paddingInlineStart: 0,
+    paddingInlineEnd: 0,
+  },
   borderNone: {
     borderStyle: "none",
+    borderWidth: 0,
   },
   borderSolid: {
     borderColor: theme.palette.divider,
@@ -21,6 +30,7 @@ const Fieldset = ({ className, variant, ...props }) => {
       border={variant === "borderSolid" ? 1 : 0}
       className={clsx(
         className,
+        classes.root,
         variant === "borderNone" && classes.borderNone,
         variant === "borderSolid" && classes.borderSolid
       )}

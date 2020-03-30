@@ -1,11 +1,13 @@
 let MuiButton
 MuiButton = ({ palette, spacing }) => ({
   root: {
+    appearance: "none",
     cursor: "pointer",
     font: "inherit",
     fontWeight: "bold",
     lineHeight: `${spacing(2.5)}px`,
     margin: 0,
+    minHeight: spacing(3),
     overflow: "visible",
     textDecoration: "none",
     '&[type="button"], &[type="reset"], &[type="submit"], html &[type="button"]': {

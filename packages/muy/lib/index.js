@@ -1,5 +1,6 @@
 import Article from "./Article"
 import AnswerWithText from "./AnswerWithText"
+import BackgroundVideo from "./BackgroundVideo"
 import BackToTopButton from "./BackToTop/BackToTopButton"
 import BackToTopLink from "./BackToTop/BackToTopLink"
 import BirthdayInput from "./BirthdayInput"
@@ -30,12 +31,14 @@ import QuestionText from "./QuestionText"
 import SkipToContentLink from "./SkipToContentLink"
 import SiteNav from "./SiteNav"
 import SiteTitle from "./SiteTitle"
+import Video from "./Video"
 import { getTheme, getThemeOptions, getNativeFontFamily } from "@muy/themes"
 import useMDXComponents from "./hooks/useMDXComponents"
 
 export {
   AnswerWithText,
   Article,
+  BackgroundVideo,
   BackToTopButton,
   BackToTopLink,
   BirthdayInput,
@@ -72,6 +75,7 @@ export {
   SkipToContentLink,
   SiteNav,
   SiteTitle,
+  Video,
   getNativeFontFamily,
   getTheme,
   getThemeOptions,

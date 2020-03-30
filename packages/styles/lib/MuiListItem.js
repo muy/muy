@@ -1,5 +1,6 @@
-const MuiListItem = theme => ({
+const MuiListItem = (theme) => ({
   root: {
+    listStyleType: "none",
     paddingLeft: 0,
     "& > ol, & > ul": {
       marginBottom: `${theme.spacing(3)}px`,

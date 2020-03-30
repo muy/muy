@@ -1,4 +1,5 @@
 import { baseTypography } from "@muy/styles"
+import MuiAppBar from "@muy/styles/lib/MuiAppBar"
 import MuiButton from "@muy/styles/lib/MuiButton"
 import MuiContainer from "@muy/styles/lib/MuiContainer"
 import MuiCssBaseline from "@muy/styles/lib/MuiCssBaseline"
@@ -24,13 +25,14 @@ const getThemeOptions = ({ baseTheme }) => ({
     ...baseTheme.typography,
   },
   overrides: {
+    MuiAppBar,
     MuiButton: MuiButton(baseTheme),
     MuiContainer: MuiContainer(baseTheme),
     MuiCssBaseline: MuiCssBaseline(baseTheme),
     MuiDivider: MuiDivider(baseTheme),
     MuiFormGroup: MuiFormGroup(baseTheme),
     MuiInput: MuiInput(baseTheme),
-    MuiInputBase,
+    MuiInputBase: MuiInputBase(baseTheme),
     MuiLink,
     MuiList,
     MuiListItem: MuiListItem(baseTheme),

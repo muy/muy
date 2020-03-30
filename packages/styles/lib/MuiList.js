@@ -3,6 +3,7 @@ const MuiList = {
     listStyleImage: "none",
     listStylePosition: "outside",
     padding: 0,
+    paddingInlineStart: 0,
   },
 }
 

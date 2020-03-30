@@ -1,7 +1,11 @@
 const MuiInput = (theme) => ({
   input: {
+    font: "inherit",
     fontWeight: "normal",
     lineHeight: theme.spacing(2.5),
+    margin: 0,
+    minHeight: theme.spacing(3),
+    overflow: "visible",
   },
   inputTypeSearch: {
     "-webkit-appearance": "textfield",

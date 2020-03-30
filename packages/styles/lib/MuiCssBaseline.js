@@ -1,5 +1,13 @@
 const MuiCssBaseline = (theme) => ({
   "@global": {
+    "*, ::after, ::before": {
+      boxSizing: "border-box",
+    },
+    "html, body": {
+      display: "block",
+      margin: 0,
+      padding: 0,
+    },
     html: {
       "-ms-text-size-adjust": "100%;",
       "-webkit-text-size-adjust": "100%",
