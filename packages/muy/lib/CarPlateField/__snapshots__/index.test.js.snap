@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CarPlateField /> field should render correctly 1`] = `
+<div
+  className="MuiFormControl-root MuiTextField-root"
+>
+  <div
+    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+  >
+    <input
+      aria-invalid={false}
+      autoFocus={false}
+      className="MuiInputBase-input MuiInput-input makeStyles-input-1"
+      disabled={false}
+      maxLength={7}
+      minLength={7}
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      pattern="[a-zA-Z]{3}[0-9]([a-zA-Z]|[0-9])[0-9]{2}"
+      required={false}
+      type="text"
+    />
+  </div>
+</div>
+`;

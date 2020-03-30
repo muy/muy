@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainContent/> component should render correctly with no props 1`] = `
+<main
+  className="MuiBox-root MuiBox-root-2"
+  role="main"
+/>
+`;

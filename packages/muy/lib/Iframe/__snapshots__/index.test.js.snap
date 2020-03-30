@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Iframe/> component should render correctly with cover variant 1`] = `
+<iframe
+  className="MuiBox-root MuiBox-root-4 makeStyles-cover-1"
+  frameBorder={0}
+/>
+`;
+
+exports[`<Iframe/> component should render correctly with no props 1`] = `
+<iframe
+  className="MuiBox-root MuiBox-root-3"
+  frameBorder={0}
+/>
+`;

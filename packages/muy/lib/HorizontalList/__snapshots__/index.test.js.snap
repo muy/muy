@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HorizontalList /> renders correctly with no target prop 1`] = `
+<ul
+  className="MuiList-root makeStyles-root-1 MuiBox-root MuiBox-root-3 makeStyles-root-1"
+  to="/"
+>
+  Link
+</ul>
+`;

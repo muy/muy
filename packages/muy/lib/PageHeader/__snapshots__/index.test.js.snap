@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageHeader /> component should render correctly with no props 1`] = `
+<header
+  className="MuiBox-root MuiBox-root-2"
+  itemScope={true}
+  itemType="https://schema.org/WPHeader"
+  role="banner"
+/>
+`;

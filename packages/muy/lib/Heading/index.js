@@ -31,27 +31,27 @@ Heading.defaultProps = {
 
 export default Heading
 
-export const H1 = ({ variant = getHnDefaultProps(1), ...props }) => (
+export const H1 = ({ variant, ...props }) => (
   <Heading level={1} variant={variant} {...props} />
 )
 
-export const H2 = ({ variant = getHnDefaultProps(2), ...props }) => (
+export const H2 = ({ variant, ...props }) => (
   <Heading level={2} variant={variant} {...props} />
 )
 
-export const H3 = ({ variant = getHnDefaultProps(3), ...props }) => (
+export const H3 = ({ variant, ...props }) => (
   <Heading level={3} variant={variant} {...props} />
 )
 
-export const H4 = ({ variant = getHnDefaultProps(4), ...props }) => (
+export const H4 = ({ variant, ...props }) => (
   <Heading level={4} variant={variant} {...props} />
 )
 
-export const H5 = ({ variant = getHnDefaultProps(5), ...props }) => (
+export const H5 = ({ variant, ...props }) => (
   <Heading level={5} variant={variant} {...props} />
 )
 
-export const H6 = ({ variant = getHnDefaultProps(6), ...props }) => (
+export const H6 = ({ variant, ...props }) => (
   <Heading level={6} variant={variant} {...props} />
 )
 

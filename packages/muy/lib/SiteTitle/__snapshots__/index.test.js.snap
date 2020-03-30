@@ -17,3 +17,39 @@ exports[`<SiteTitle /> should render correctly 1`] = `
   />
 </h1>
 `;
+
+exports[`<SiteTitle /> should render correctly with inherit color 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-body1"
+>
+  <a
+    aria-current="page"
+    className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+    href="/"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    style={Object {}}
+    target="_self"
+  />
+</h1>
+`;
+
+exports[`<SiteTitle /> should render correctly with primary color 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-body1"
+>
+  <a
+    aria-current="page"
+    className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+    href="/"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    style={Object {}}
+    target="_self"
+  />
+</h1>
+`;

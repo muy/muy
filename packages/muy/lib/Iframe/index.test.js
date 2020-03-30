@@ -1,12 +1,12 @@
 import React from "react"
 import rendersCorrectly from "../../test-utils/rendersCorrectly"
-import Image from "."
+import Iframe from "."
 
-describe("Image component", () => {
+describe("<Iframe/> component", () => {
   it("should render correctly with no props", () => {
-    rendersCorrectly(<Image />)
+    rendersCorrectly(<Iframe />)
   })
   it("should render correctly with cover variant", () => {
-    rendersCorrectly(<Image variant={"cover"} />)
+    rendersCorrectly(<Iframe variant={"cover"} />)
   })
 })

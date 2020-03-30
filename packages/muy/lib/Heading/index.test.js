@@ -1,3 +1,7 @@
+/**
+ * @todo Refactor repeated tests for <Heading />
+ */
+
 import React from "react"
 import Heading from "."
 import rendersCorrectly from "../../test-utils/rendersCorrectly"
