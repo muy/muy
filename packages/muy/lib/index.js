@@ -21,11 +21,13 @@ import Image from "./Image"
 import Legend from "./Legend"
 import ListItemWithText from "./ListItemWithText"
 import MainContent from "./MainContent"
+import Nav from "./Nav"
 import PageFooter from "./PageFooter"
 import PageHeader from "./PageHeader"
 import Paragraph from "./Paragraph"
 import Question from "./Question"
 import QuestionText from "./QuestionText"
+import SiteNav from "./SiteNav"
 import SiteTitle from "./SiteTitle"
 import { getTheme, getThemeOptions, getNativeFontFamily } from "@muy/themes"
 import useMDXComponents from "./hooks/useMDXComponents"
@@ -60,11 +62,13 @@ export {
   Legend,
   ListItemWithText,
   MainContent,
+  Nav,
   PageFooter,
   PageHeader,
   Paragraph,
   Question,
   QuestionText,
+  SiteNav,
   SiteTitle,
   getNativeFontFamily,
   getTheme,

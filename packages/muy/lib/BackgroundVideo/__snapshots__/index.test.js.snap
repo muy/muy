@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackgroundVideo /> should render correctly 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-3 MuyBackgroundVideoContainer"
+>
+  <video
+    autoPlay={true}
+    className="MuiBox-root MuiBox-root-4 makeStyles-root-1"
+    loop={true}
+    muted={true}
+  />
+</div>
+`;
