@@ -15,7 +15,7 @@ const useStyles = makeStyles({
   },
 })
 
-const BackgroundVideo = ({ props }) => {
+const BackgroundVideo = (props) => {
   const classes = useStyles()
   return (
     <Box
