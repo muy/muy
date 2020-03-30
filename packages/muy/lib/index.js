@@ -1,6 +1,7 @@
 import Article from "./Article"
 import AnswerWithText from "./AnswerWithText"
-import BackToTopButton from "./BackToTopButton"
+import BackToTopButton from "./BackToTop/BackToTopButton"
+import BackToTopLink from "./BackToTop/BackToTopLink"
 import BirthdayInput from "./BirthdayInput"
 import Blockquote from "./Blockquote"
 import CarPlateField from "./CarPlateField"
@@ -33,6 +34,7 @@ export {
   AnswerWithText,
   Article,
   BackToTopButton,
+  BackToTopLink,
   BirthdayInput,
   Blockquote,
   CarPlateField,

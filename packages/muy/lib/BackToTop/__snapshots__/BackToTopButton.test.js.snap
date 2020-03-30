@@ -17,7 +17,6 @@ exports[`<BackToTopButton /> renders correctly 1`] = `
   onTouchMove={[Function]}
   onTouchStart={[Function]}
   tabIndex={0}
-  title={Object {}}
   type="button"
 >
   <span

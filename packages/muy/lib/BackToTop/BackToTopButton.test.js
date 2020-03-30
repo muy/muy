@@ -1,5 +1,5 @@
 import React from "react"
-import BackToTopButton from "."
+import BackToTopButton from "./BackToTopButton"
 import rendersCorrectly from "../../test-utils/rendersCorrectly"
 
 describe("<BackToTopButton />", () => {

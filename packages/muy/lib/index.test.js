@@ -1,7 +1,10 @@
-import { Image } from "."
+import * as module from "."
 
 describe("Main module", () => {
-  it("should export Image component", () => {
-    expect(Image).toBeDefined()
-  })
+  it.each(["BackToTopButton", "BackToTopLink", "Image"])(
+    "should export %p component",
+    (component) => {
+      expect(module).toHaveProperty(component)
+    }
+  )
 })
