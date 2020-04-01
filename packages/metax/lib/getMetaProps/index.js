@@ -148,7 +148,7 @@ const getMetaProps = (props = {}) => {
     (metaProps.twitterSite = twitterSiteMeta({ content: twitterSite }))
 
   if (type) {
-    metaProps.ogType = ogTypeMeta({ content: "article" })
+    metaProps.ogType = ogTypeMeta({ content: type })
     articleSection &&
       (metaProps.articleSection = articleSectionMeta({
         content: articleSection,
