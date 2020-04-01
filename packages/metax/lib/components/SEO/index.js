@@ -34,8 +34,6 @@ export default SEO
 
 SEO.defaultProps = {
   images: [],
-  lang: "en",
-  locale: "en_US",
   meta: [],
   type: ogTypeMeta.defaultProps.content,
   videos: [],
