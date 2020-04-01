@@ -1,0 +1,38 @@
+{
+  "name": "gatsby-plugin-metax",
+  "version": "0.14.0",
+  "description": "SEO component and hook for Gatsby, powered by Metax",
+  "keywords": [
+    "seo",
+    "gatsby",
+    "metadata",
+    "metax"
+  ],
+  "author": "Metax",
+  "homepage": "https://github.com/muy/muy/tree/master/packages/gatsby-plugin-metax#readme",
+  "license": "ISC",
+  "main": "dist/index.cjs.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muy/muy.git"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/muy/muy/issues"
+  },
+  "devDependencies": {
+    "metax": "0.14.0"
+  }
+}

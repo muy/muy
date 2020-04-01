@@ -8,7 +8,5 @@
  */
 
 import SEO from "./components/SEO"
-import useSiteMetadata from "./hooks/useSiteMetadata"
-import useSiteMetadataMock from "./hooks/__mocks__/useSiteMetadata"
 
-export { SEO, useSiteMetadata, useSiteMetadataMock }
+export { SEO }
