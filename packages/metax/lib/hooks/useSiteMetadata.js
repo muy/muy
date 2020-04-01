@@ -6,7 +6,7 @@ import { graphql, useStaticQuery } from "gatsby"
  * @see https://www.gatsbyjs.org/docs/use-static-query/
  * @return {null|Record<string, any>}
  */
-function useSiteMetadata() {
+const useSiteMetadata = () => {
   /**
    * @property site
    */

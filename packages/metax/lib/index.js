@@ -7,7 +7,7 @@
  * License:       MIT
  */
 
-import SEO from "./components/SEO/index"
+import SEO from "./components/SEO"
 import useSiteMetadata from "./hooks/useSiteMetadata"
 import useSiteMetadataMock from "./hooks/__mocks__/useSiteMetadata"
 
