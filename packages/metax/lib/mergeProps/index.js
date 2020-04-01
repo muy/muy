@@ -3,12 +3,6 @@ const defaults = {
 }
 
 const mergeProps = ({ siteMetadata, ...props } = defaults) => ({
-  articleSection: props.articleSection,
-  url: props.url,
-
-  googleSiteVerification: siteMetadata.googleSiteVerification,
-  siteName: siteMetadata.siteName,
-
   ...siteMetadata,
   ...props,
 })
