@@ -32,7 +32,7 @@ describe("Use MDX components hook", () => {
     "ul",
   ]
 
-  describe.each(expectedProperties)("%p property", property => {
+  describe.each(expectedProperties)("%p property", (property) => {
     it("should be a component and render correctly", () => {
       const Component = components[property]
       rendersCorrectly(<Component />)

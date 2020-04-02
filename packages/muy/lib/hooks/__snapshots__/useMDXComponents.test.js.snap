@@ -16,37 +16,37 @@ exports[`Use MDX components hook "blockquote" property should be a component and
 
 exports[`Use MDX components hook "h1" property should be a component and render correctly 1`] = `
 <h1
-  className="MuiTypography-root MuiTypography-h1"
+  className="MuiTypography-root MuiTypography-h1 MuiTypography-gutterBottom"
 />
 `;
 
 exports[`Use MDX components hook "h2" property should be a component and render correctly 1`] = `
 <h2
-  className="MuiTypography-root MuiTypography-h2"
+  className="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom"
 />
 `;
 
 exports[`Use MDX components hook "h3" property should be a component and render correctly 1`] = `
 <h3
-  className="MuiTypography-root MuiTypography-h3"
+  className="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom"
 />
 `;
 
 exports[`Use MDX components hook "h4" property should be a component and render correctly 1`] = `
 <h4
-  className="MuiTypography-root MuiTypography-h4"
+  className="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom"
 />
 `;
 
 exports[`Use MDX components hook "h5" property should be a component and render correctly 1`] = `
 <h5
-  className="MuiTypography-root MuiTypography-h5"
+  className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
 />
 `;
 
 exports[`Use MDX components hook "h6" property should be a component and render correctly 1`] = `
 <h6
-  className="MuiTypography-root MuiTypography-h6"
+  className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
 />
 `;
 

@@ -9,16 +9,17 @@ import Paragraph from "../Paragraph"
 import Table from "@material-ui/core/Table"
 import TableCell from "@material-ui/core/TableCell"
 import TableRow from "@material-ui/core/TableRow"
+import React from "react"
 
 const useMDXComponents = () => ({
   a: Link,
   blockquote: Blockquote,
-  h1: H1,
-  h2: H2,
-  h3: H3,
-  h4: H4,
-  h5: H5,
-  h6: H6,
+  h1: (props) => <H1 gutterBottom={true} {...props} />,
+  h2: (props) => <H2 gutterBottom={true} {...props} />,
+  h3: (props) => <H3 gutterBottom={true} {...props} />,
+  h4: (props) => <H4 gutterBottom={true} {...props} />,
+  h5: (props) => <H5 gutterBottom={true} {...props} />,
+  h6: (props) => <H6 gutterBottom={true} {...props} />,
   hr: Divider,
   img: Image,
   li: ListItemWithText,
