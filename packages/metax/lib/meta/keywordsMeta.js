@@ -5,7 +5,7 @@ const keywordsMeta = ({ content, type }) => {
   const allowedTypes = ["article", "book"]
   return {
     content: Array.isArray(content) ? content.join(",") : content,
-    meta: "keywords",
+    name: "keywords",
     property: allowedTypes.includes(type) && `${type}:tag`,
   }
 }
