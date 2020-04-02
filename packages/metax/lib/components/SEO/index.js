@@ -35,6 +35,7 @@ export default SEO
 SEO.defaultProps = {
   images: [],
   meta: [],
+  siteMetadata: {},
   type: ogTypeMeta.defaultProps.content,
   videos: [],
 }
@@ -46,6 +47,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   locale: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
+  siteMetadata: PropTypes.object,
   title: PropTypes.string.isRequired,
   titleTemplate: PropTypes.string,
   type: PropTypes.string,
