@@ -41,7 +41,7 @@
     "husky": "4.2.3",
     "lerna": "3.20.2",
     "lerna-changelog": "1.0.1",
-    "prettier": "2.0.2",
+    "prettier": "2.0.4",
     "rollup": "2.2.0"
   },
   "husky": {
