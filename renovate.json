@@ -3,17 +3,29 @@
     "config:base"
   ],
   "assignees": ["jimmyandrade"],
-  "automerge": true,
+  "automerge": false,
   "enabled": true,
   "labels": ["dependencies", "renovate"],
   "packageRules": [
     {
-      "updateTypes": ["patch"],
-      "automerge": true
+      "paths": ["package.json"],
+      "labels": ["root"]
     },
     {
-      "updateTypes": ["minor", "pin", "digest"],
-      "automerge": false
+      "paths": ["packages/metax/package.json"],
+      "labels": ["metax"]
+    },
+    {
+      "paths": ["packages/muy/package.json"],
+      "labels": ["muy"]
+    },
+    {
+      "paths": ["packages/styles/package.json"],
+      "labels": ["styles"]
+    },
+    {
+      "paths": ["packages/themes/package.json"],
+      "labels": ["themes"]
     }
   ],
   "semanticCommits": true,
