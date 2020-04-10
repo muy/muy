@@ -38,7 +38,7 @@
   "homepage": "https://github.com/muy/muy#readme",
   "devDependencies": {
     "alex": "8.1.1",
-    "husky": "4.2.3",
+    "husky": "4.2.5",
     "lerna": "3.20.2",
     "lerna-changelog": "1.0.1",
     "prettier": "2.0.4",
