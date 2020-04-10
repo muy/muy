@@ -45,7 +45,7 @@
     "@babel/preset-env": "7.9.0",
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-node-resolve": "7.1.1",
-    "gatsby": "2.20.8",
+    "gatsby": "2.20.17",
     "jest": "25.2.4",
     "react": "16.13.1",
     "react-helmet": "5.2.1",
