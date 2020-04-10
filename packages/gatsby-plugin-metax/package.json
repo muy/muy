@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-metax",
-  "version": "0.15.5",
+  "version": "0.16.0",
   "description": "SEO component and hook for Gatsby, powered by Metax",
   "keywords": [
     "seo",
@@ -33,6 +33,6 @@
     "url": "https://github.com/muy/muy/issues"
   },
   "devDependencies": {
-    "metax": "^0.15.5"
+    "metax": "^0.16.0"
   }
 }
