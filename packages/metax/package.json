@@ -48,8 +48,8 @@
     "gatsby": "2.20.17",
     "jest": "25.2.4",
     "react": "16.13.1",
-    "react-helmet": "5.2.1",
-    "rollup": "2.2.0",
+    "react-helmet": "6.0.0",
+    "rollup": "2.6.0",
     "rollup-plugin-babel": "4.4.0"
   }
 }
