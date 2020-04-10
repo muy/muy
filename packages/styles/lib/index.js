@@ -1,16 +1,19 @@
 import baseTypography from "./baseTypography"
 import imageStyle from "./imageStyle"
 import MuiButton from "./MuiButton"
+import MuiCheckbox from "./MuiCheckbox"
 import MuiContainer from "./MuiContainer"
 import MuiCssBaseline from "./MuiCssBaseline"
 import MuiDivider from "./MuiDivider"
 import MuiFormGroup from "./MuiFormGroup"
 import MuiInput from "./MuiInput"
-import MuiInputBase from "./MuiInputBase"
+import MuiLinearProgress from "./MuiLinearProgress"
 import MuiLink from "./MuiLink"
 import MuiList from "./MuiList"
 import MuiListItem from "./MuiListItem"
+import MuiNativeSelect from "./MuiNativeSelect"
 import MuiOutlinedInput from "./MuiOutlinedInput"
+import MuiRadio from "./MuiRadio"
 import MuiSelect from "./MuiSelect"
 import MuiTable from "./MuiTable"
 import MuiTableCell from "./MuiTableCell"
@@ -23,16 +26,19 @@ export {
   baseTypography,
   imageStyle,
   MuiButton,
+  MuiCheckbox,
   MuiContainer,
   MuiCssBaseline,
   MuiDivider,
   MuiFormGroup,
   MuiInput,
-  MuiInputBase,
+  MuiLinearProgress,
   MuiLink,
   MuiList,
   MuiListItem,
+  MuiNativeSelect,
   MuiOutlinedInput,
+  MuiRadio,
   MuiSelect,
   MuiTable,
   MuiTableCell,
