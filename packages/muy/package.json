@@ -57,7 +57,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-test-renderer": "16.13.1",
-    "rollup": "2.3.4",
+    "rollup": "2.6.0",
     "rollup-plugin-babel": "4.4.0"
   },
   "gitHead": "a03ce3697e0d27d39b2c6fe956953caf70401ef6"

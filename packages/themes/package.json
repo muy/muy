@@ -49,7 +49,7 @@
     "@material-ui/core": "4.9.9",
     "@muy/styles": "^0.15.0",
     "jest": "25.3.0",
-    "rollup": "2.2.0"
+    "rollup": "2.6.0"
   },
   "gitHead": "a03ce3697e0d27d39b2c6fe956953caf70401ef6"
 }

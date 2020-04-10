@@ -9,23 +9,27 @@
   "packageRules": [
     {
       "paths": ["package.json"],
-      "labels": ["root"]
+      "labels": ["dependencies", "renovate", "root package"]
+    },
+    {
+      "paths": ["packages/gatsby-plugin-metax/package.json"],
+      "labels": ["dependencies", "gatsby plugin", "metax", "renovate"]
     },
     {
       "paths": ["packages/metax/package.json"],
-      "labels": ["metax"]
+      "labels": ["dependencies", "metax", "renovate"]
     },
     {
       "paths": ["packages/muy/package.json"],
-      "labels": ["muy"]
+      "labels": ["dependencies", "muy", "renovate"]
     },
     {
       "paths": ["packages/styles/package.json"],
-      "labels": ["styles"]
+      "labels": ["dependencies", "renovate", "styles"]
     },
     {
       "paths": ["packages/themes/package.json"],
-      "labels": ["themes"]
+      "labels": ["dependencies", "renovate", "themes"]
     }
   ],
   "semanticCommits": true,
