@@ -42,14 +42,14 @@
     "url": "https://github.com/muy/muy/issues"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.9.0",
+    "@babel/preset-env": "7.9.5",
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-node-resolve": "7.1.1",
     "gatsby": "2.20.17",
-    "jest": "25.2.4",
+    "jest": "25.3.0",
     "react": "16.13.1",
     "react-helmet": "6.0.0",
-    "rollup": "2.2.0",
+    "rollup": "2.6.0",
     "rollup-plugin-babel": "4.4.0"
   }
 }
