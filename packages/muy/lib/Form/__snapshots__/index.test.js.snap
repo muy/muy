@@ -3,5 +3,8 @@
 exports[`<Form /> field should render correctly 1`] = `
 <form
   className="MuiBox-root MuiBox-root-2"
+  data-name="form"
+  id="form"
+  name="form"
 />
 `;
