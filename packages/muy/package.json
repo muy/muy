@@ -42,7 +42,7 @@
     "url": "https://github.com/muy/muy/issues"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.9.0",
+    "@babel/preset-env": "7.9.5",
     "@babel/preset-react": "7.9.4",
     "@material-ui/core": "4.9.9",
     "@muy/styles": "^0.15.0",
@@ -50,14 +50,14 @@
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-node-resolve": "7.1.1",
     "clsx": "1.1.0",
-    "core-js": "3.6.4",
-    "gatsby": "2.20.8",
-    "jest": "25.2.3",
+    "core-js": "3.6.5",
+    "gatsby": "2.20.17",
+    "jest": "25.3.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-test-renderer": "16.13.1",
-    "rollup": "2.2.0",
+    "rollup": "2.3.4",
     "rollup-plugin-babel": "4.4.0"
   },
   "gitHead": "a03ce3697e0d27d39b2c6fe956953caf70401ef6"
