@@ -32,6 +32,7 @@
       "labels": ["dependencies", "renovate", "themes"]
     }
   ],
+  "schedule": "every weekend",
   "semanticCommits": true,
   "unicodeEmoji": true,
   "updateLockFiles": true
