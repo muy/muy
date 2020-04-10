@@ -4,6 +4,7 @@ import pkg from "./package.json"
 const outputGlobals = {
   "@material-ui/core/styles/createMuiTheme": "createMuiTheme",
   "@muy/styles": "styles",
+  "@muy/styles/lib/MuiAppBar": "MuiAppBar",
   "@muy/styles/lib/MuiButton": "MuiButton",
   "@muy/styles/lib/MuiContainer": "MuiContainer",
   "@muy/styles/lib/MuiCssBaseline": "MuiCssBaseline",
