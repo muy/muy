@@ -51,7 +51,7 @@
     "@rollup/plugin-node-resolve": "7.1.1",
     "clsx": "1.1.0",
     "core-js": "3.6.5",
-    "gatsby": "2.20.17",
+    "gatsby": "2.20.18",
     "jest": "25.3.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
