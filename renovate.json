@@ -3,7 +3,7 @@
     "config:base"
   ],
   "assignees": ["jimmyandrade"],
-  "automerge": false,
+  "automerge": true,
   "enabled": true,
   "labels": ["dependencies", "renovate"],
   "packageRules": [
