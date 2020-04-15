@@ -22,7 +22,9 @@ import Image from "./Image"
 import Legend from "./Legend"
 import ListItemWithText from "./ListItemWithText"
 import MainContent from "./MainContent"
+import NameField from "./NameField"
 import Nav from "./Nav"
+import NetlifyForm from "./NetlifyForm"
 import PageFooter from "./PageFooter"
 import PageHeader from "./PageHeader"
 import Paragraph from "./Paragraph"
@@ -66,7 +68,9 @@ export {
   Legend,
   ListItemWithText,
   MainContent,
+  NameField,
   Nav,
+  NetlifyForm,
   PageFooter,
   PageHeader,
   Paragraph,
