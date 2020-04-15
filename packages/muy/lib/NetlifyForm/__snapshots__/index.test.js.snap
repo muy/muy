@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NetlifyForm/> component should render correctly with no props 1`] = `
+<form
+  className="MuiBox-root MuiBox-root-2"
+  data-name="contact"
+  data-netlify="true"
+  data-netlify-honeypot="contact-bot-field"
+  id="contact"
+  name="contact"
+>
+  <input
+    aria-hidden={true}
+    id="contact-bot-field"
+    name="contact-bot-field"
+    type="hidden"
+  />
+  <input
+    aria-hidden={true}
+    id="form-name"
+    name="form-name"
+    type="hidden"
+  />
+</form>
+`;
