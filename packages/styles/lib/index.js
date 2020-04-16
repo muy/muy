@@ -1,5 +1,6 @@
 import baseTypography from "./baseTypography"
 import imageStyle from "./imageStyle"
+import MuiAppBar from "./MuiAppBar"
 import MuiButton from "./MuiButton"
 import MuiCheckbox from "./MuiCheckbox"
 import MuiContainer from "./MuiContainer"
@@ -25,6 +26,7 @@ import objectFitCover from "./objectFitCover"
 export {
   baseTypography,
   imageStyle,
+  MuiAppBar,
   MuiButton,
   MuiCheckbox,
   MuiContainer,
