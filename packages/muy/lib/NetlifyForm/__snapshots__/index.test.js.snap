@@ -7,6 +7,7 @@ exports[`<NetlifyForm/> component should render correctly with no props 1`] = `
   data-netlify="true"
   data-netlify-honeypot="contact-bot-field"
   id="contact"
+  method="POST"
   name="contact"
 >
   <input
@@ -14,12 +15,14 @@ exports[`<NetlifyForm/> component should render correctly with no props 1`] = `
     id="contact-bot-field"
     name="contact-bot-field"
     type="hidden"
+    value=""
   />
   <input
     aria-hidden={true}
     id="form-name"
     name="form-name"
     type="hidden"
+    value="Contact form"
   />
 </form>
 `;

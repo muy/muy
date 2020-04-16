@@ -2,7 +2,16 @@ import React from "react"
 import PropTypes from "prop-types"
 import Form from "../Form"
 
-const NetlifyForm = ({ action, children, honeypot, id }) => {
+const NetlifyForm = ({
+  action,
+  children,
+  formName,
+  honeypot,
+  id,
+  method,
+  name,
+  ...props
+}) => {
   const honeyPotName = id ? `${id}-bot-field` : `bot-field`
   return (
     <Form
@@ -10,7 +19,9 @@ const NetlifyForm = ({ action, children, honeypot, id }) => {
       data-netlify={"true"}
       data-netlify-honeypot={honeypot && honeyPotName}
       id={id}
-      name={id}
+      method={method}
+      name={name}
+      {...props}
     >
       {honeyPotName && (
         <input
@@ -18,6 +29,7 @@ const NetlifyForm = ({ action, children, honeypot, id }) => {
           id={honeyPotName}
           name={honeyPotName}
           type={"hidden"}
+          value={""}
         />
       )}
       <input
@@ -25,6 +37,7 @@ const NetlifyForm = ({ action, children, honeypot, id }) => {
         id={"form-name"}
         name={"form-name"}
         type={"hidden"}
+        value={formName}
       />
       {children}
     </Form>
@@ -34,14 +47,18 @@ const NetlifyForm = ({ action, children, honeypot, id }) => {
 export default NetlifyForm
 
 NetlifyForm.defaultProps = {
+  formName: "Contact form",
   honeypot: true,
   id: "contact",
-  name: "Contact form",
+  method: "POST",
+  name: "contact",
 }
 
 NetlifyForm.propTypes = {
   action: PropTypes.string,
+  formName: PropTypes.string,
   honeypot: PropTypes.bool,
   id: PropTypes.string,
+  method: PropTypes.oneOf(["get", "GET", "post", "POST"]),
   name: PropTypes.string,
 }
