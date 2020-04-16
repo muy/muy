@@ -17,10 +17,10 @@ const NameField = ({
 }) => (
   <TextField
     autoComplete={autoComplete}
-    aria-required={required}
     id={id}
     name={name}
     inputProps={{
+      "aria-required": required,
       autoCapitalize,
       autoCorrect,
       "data-name": name,
