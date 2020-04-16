@@ -30,7 +30,7 @@ const EmailField = ({
       minLength,
       multiple,
       size: 50,
-      tabindex: 0,
+      tabIndex: 0,
       ...inputProps,
     }}
     name={name}

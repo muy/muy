@@ -31,7 +31,7 @@ exports[`<EmailField /> component should render correctly when required 1`] = `
       onFocus={[Function]}
       required={true}
       size={50}
-      tabindex={0}
+      tabIndex={0}
       type="email"
     />
   </div>
@@ -67,7 +67,7 @@ exports[`<EmailField /> component should render correctly with no props 1`] = `
       onFocus={[Function]}
       required={false}
       size={50}
-      tabindex={0}
+      tabIndex={0}
       type="email"
     />
   </div>
@@ -105,7 +105,7 @@ exports[`<EmailField /> component should render correctly with no required 1`] =
       onFocus={[Function]}
       required={false}
       size={50}
-      tabindex={0}
+      tabIndex={0}
       type="email"
     />
   </div>
