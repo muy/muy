@@ -6,6 +6,7 @@ import BackToTopLink from "./BackToTop/BackToTopLink"
 import BirthdayInput from "./BirthdayInput"
 import Blockquote from "./Blockquote"
 import CarPlateField from "./CarPlateField"
+import EmailField from "./EmailField"
 import EmbedGoogleMap from "./EmbedGoogleMap"
 import Fieldset from "./Fieldset"
 import Figure from "./Figure"
@@ -46,6 +47,7 @@ export {
   BirthdayInput,
   Blockquote,
   CarPlateField,
+  EmailField,
   EmbedGoogleMap,
   Fieldset,
   Figure,
