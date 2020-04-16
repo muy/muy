@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-metax",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "SEO component and hook for Gatsby, powered by Metax",
   "keywords": [
     "seo",
