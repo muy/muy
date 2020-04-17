@@ -1,9 +1,9 @@
 import React from "react"
-import AnswerText from "."
+import Details from "."
 import rendersCorrectly from "../../test-utils/rendersCorrectly"
 
-describe("<AnswerText /> component", () => {
+describe("<Details /> component", () => {
   it("renders correctly", () => {
-    rendersCorrectly(<AnswerText />)
+    rendersCorrectly(<Details />)
   })
 })

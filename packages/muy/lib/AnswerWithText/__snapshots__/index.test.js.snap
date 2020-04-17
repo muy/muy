@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Answer Text component renders correctly 1`] = `
+exports[`<AnswerText /> component renders correctly 1`] = `
 <dd
   className="MuiBox-root MuiBox-root-2"
   itemProp="acceptedAnswer"

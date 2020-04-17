@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubmitButton /> component should render correctly with no props 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-text"
+  disabled={false}
+  id="submit"
+  name="submit"
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="submit"
+>
+  <span
+    className="MuiButton-label"
+  />
+</button>
+`;
