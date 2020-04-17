@@ -28,7 +28,7 @@ const outputGlobals = {
   "react-is": "reactIs",
 }
 
-const external = Object.keys(outputGlobals)
+const external = Object.keys(outputGlobals).concat("@material-ui/core")
 
 const plugins = [nodeResolve(), commonjs(commonJSOptions), babel(babelOptions)]
 
