@@ -3,6 +3,7 @@ import Box from "@material-ui/core/Box"
 
 const OptionGroup = (props) => (
   <Box
+    component={"optgroup"}
     fontFamily={"inherit"}
     fontSize={"inherit"}
     fontStyle={"inherit"}
