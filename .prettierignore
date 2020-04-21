@@ -1,0 +1,6 @@
+node_modules
+gatsby-starter-muy/.cache
+gatsby-starter-muy/node_modules
+gatsby-starter-muy/public
+gatsby-starter-muy/package-lock.json
+package-lock.json
