@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import TextField from "@material-ui/core/TextField"
+import propTypes from "../propTypes"
 
 const CityField = ({
   autoCapitalize,
@@ -45,7 +46,7 @@ CityField.defaultProps = {
 }
 
 CityField.propTypes = {
-  autoCapitalize: PropTypes.string,
+  autoCapitalize: propTypes.autoCapitalize,
   autoComplete: PropTypes.string,
   autoCorrect: PropTypes.string,
   id: PropTypes.string,

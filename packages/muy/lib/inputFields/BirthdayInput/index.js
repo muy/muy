@@ -1,7 +1,8 @@
 import React from "react"
+import PropTypes from "prop-types"
 import TextField from "@material-ui/core/TextField"
 
-export const getDateByAge = age => {
+export const getDateByAge = (age) => {
   const date = new Date(Date.now())
   const year = date.getFullYear() - age
   const month = `0${date.getUTCMonth()}`.slice(-2)
@@ -9,7 +10,7 @@ export const getDateByAge = age => {
   return `${year}-${month}-${day}`
 }
 
-const BirthdayInput = ({ minAge, maxAge, ...props }) => {
+const BirthdayInput = ({ maxAge, minAge, ...props }) => {
   return (
     <TextField
       inputProps={{
@@ -23,3 +24,8 @@ const BirthdayInput = ({ minAge, maxAge, ...props }) => {
 }
 
 export default BirthdayInput
+
+BirthdayInput.propTypes = {
+  maxAge: PropTypes.number,
+  minAge: PropTypes.number,
+}
