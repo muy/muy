@@ -29,7 +29,10 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "dev": "npm run develop",
+    "develop": "rollup -c -w",
     "pretest": "npm run build",
+    "start": "npm run develop",
     "test": "jest"
   },
   "bugs": {
