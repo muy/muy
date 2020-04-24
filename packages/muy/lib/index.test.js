@@ -6,6 +6,7 @@ describe("Main module", () => {
     "BackToTopButton",
     "BackToTopLink",
     "CityField",
+    "DateField",
     "EmailField",
     "Image",
     "NameField",

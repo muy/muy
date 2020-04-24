@@ -7,6 +7,7 @@ import BirthdayInput from "./inputFields/BirthdayInput"
 import Blockquote from "./Blockquote"
 import CarPlateField from "./inputFields/CarPlateField"
 import CityField from "./inputFields/CityField"
+import DateField from "./inputFields/DateField"
 import EmailField from "./inputFields/EmailField"
 import EmbedGoogleMap from "./EmbedGoogleMap"
 import Fieldset from "./Fieldset"
@@ -50,6 +51,7 @@ export {
   Blockquote,
   CarPlateField,
   CityField,
+  DateField,
   EmailField,
   EmbedGoogleMap,
   Fieldset,
