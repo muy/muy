@@ -10,16 +10,10 @@ const MuiInput = (theme) => ({
     minHeight: theme.spacing(3),
     minWidth: 0,
     overflow: "visible",
-    '[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button': {
-      height: "auto",
-    },
   },
   inputTypeSearch: {
     "-webkit-appearance": "textfield",
     outlineOffset: "-2px",
-    "&::-webkit-search-cancel-button, &::-webkit-search-decoration": {
-      "-webkit-appearance": "none",
-    },
   },
   multiline: {
     font: "inherit",

@@ -120,6 +120,12 @@ const MuiCssBaseline = (theme) => ({
     "svg:not(:root)": {
       overflow: "hidden",
     },
+    '[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button': {
+      height: "auto",
+    },
+    '[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration': {
+      "-webkit-appearance": "none",
+    },
   },
 })
 
