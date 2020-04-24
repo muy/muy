@@ -82,6 +82,7 @@ exports[`Use MDX components hook "p" property should be a component and render c
 exports[`Use MDX components hook "table" property should be a component and render correctly 1`] = `
 <table
   className="MuiTable-root"
+  role={null}
 />
 `;
 
@@ -95,6 +96,7 @@ exports[`Use MDX components hook "td" property should be a component and render 
 exports[`Use MDX components hook "tr" property should be a component and render correctly 1`] = `
 <tr
   className="MuiTableRow-root"
+  role={null}
 />
 `;
 
