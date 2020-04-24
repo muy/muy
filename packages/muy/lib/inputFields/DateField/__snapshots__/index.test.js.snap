@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateField /> component renders correctly 1`] = `
+<div
+  className="MuiFormControl-root MuiTextField-root"
+>
+  <div
+    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+  >
+    <input
+      aria-invalid={false}
+      autoCapitalize="none"
+      autoCorrect="off"
+      autoFocus={false}
+      className="MuiInputBase-input MuiInput-input"
+      data-name="date"
+      disabled={false}
+      id="date"
+      name="date"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={false}
+      size={10}
+      type="date"
+    />
+  </div>
+</div>
+`;
