@@ -1,16 +1,10 @@
+import babelOptions from "../../config/babelOptions"
 import babelPluginFactory from "rollup-plugin-babel"
 import commonjs from "@rollup/plugin-commonjs"
+import commonJSOptions from "../../config/commonJSOptions"
 import config from "../../config/rollup.config"
 import nodeResolve from "@rollup/plugin-node-resolve"
 import pkg from "./package.json"
-
-const babelOptions = {
-  exclude: /node_modules/,
-}
-
-const commonJSOptions = {
-  exclude: "lib/**",
-}
 
 const outputGlobals = {
   gatsby: "gatsby",
