@@ -21,7 +21,7 @@ import MuiTableHead from "@muy/styles/lib/MuiTableHead"
 import MuiToolbar from "@muy/styles/lib/MuiToolbar"
 import MuiTypography from "@muy/styles/lib/MuiTypography"
 
-const getThemeOptions = ({ baseTheme }) => ({
+const getThemeOptions = ({ baseTheme } = {}) => ({
   ...baseTheme,
   typography: {
     ...baseTypography,
