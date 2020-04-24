@@ -31,6 +31,7 @@ import NetlifyForm from "./NetlifyForm"
 import PageFooter from "./PageFooter"
 import PageHeader from "./PageHeader"
 import Paragraph from "./Paragraph"
+import PhotoUploadField from "./inputFields/PhotoUploadField"
 import Question from "./Question"
 import QuestionText from "./QuestionText"
 import SkipToContentLink from "./SkipToContentLink"
@@ -81,6 +82,7 @@ export {
   PageFooter,
   PageHeader,
   Paragraph,
+  PhotoUploadField,
   Question,
   QuestionText,
   SkipToContentLink,
