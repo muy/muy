@@ -1,5 +1,10 @@
+import babelOptions from "../../config/babelOptions"
+import commonjs from "@rollup/plugin-commonjs"
+import commonJSOptions from "../../config/commonJSOptions"
 import config from "../../config/rollup.config"
+import nodeResolve from "@rollup/plugin-node-resolve"
 import pkg from "./package.json"
+import babelPluginFactory from "rollup-plugin-babel"
 
 const outputGlobals = {
   "@material-ui/core/styles/createMuiTheme": "createMuiTheme",
@@ -30,4 +35,17 @@ const outputGlobals = {
 
 const external = Object.keys(outputGlobals)
 
-export default config({ external, outputGlobals, pkg })
+const plugins = [
+  nodeResolve(),
+  commonjs(commonJSOptions),
+  babelPluginFactory(babelOptions),
+]
+
+export default config({
+  browserOutputName: "themes",
+  external,
+  iifeOutputName: "themes",
+  outputGlobals,
+  pkg,
+  plugins,
+})
