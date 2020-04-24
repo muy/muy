@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhotoField /> component should render correctly with accept PDF 1`] = `
+<input
+  id="file"
+  name="file"
+  type="file"
+/>
+`;
+
+exports[`<PhotoField /> component should render correctly with no accept PDF 1`] = `
+<input
+  id="file"
+  name="file"
+  type="file"
+/>
+`;
+
+exports[`<PhotoField /> component should render correctly with no props 1`] = `
+<input
+  id="file"
+  name="file"
+  type="file"
+/>
+`;
