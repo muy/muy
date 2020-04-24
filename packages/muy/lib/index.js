@@ -35,6 +35,7 @@ import QuestionText from "./QuestionText"
 import SkipToContentLink from "./SkipToContentLink"
 import SiteNav from "./SiteNav"
 import SiteTitle from "./SiteTitle"
+import TelephoneNumberField from "./inputFields/TelephoneNumberField"
 import Video from "./Video"
 import { getTheme, getThemeOptions, getNativeFontFamily } from "@muy/themes"
 import useMDXComponents from "./hooks/useMDXComponents"
@@ -83,6 +84,7 @@ export {
   SkipToContentLink,
   SiteNav,
   SiteTitle,
+  TelephoneNumberField,
   Video,
   getNativeFontFamily,
   getTheme,
