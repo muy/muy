@@ -2,6 +2,8 @@
 
 exports[`<FileInput /> field should render correctly 1`] = `
 <input
+  id="file"
+  name="file"
   type="file"
 />
 `;
