@@ -1,5 +1,7 @@
 import PropTypes from "prop-types"
 
+export const variantTypes = ["filled", "outlined", "standard"]
+
 const propTypes = {
   autoCapitalize: PropTypes.oneOf([
     "characters",
@@ -16,6 +18,8 @@ const propTypes = {
     "off",
     "on",
   ]),
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  id: PropTypes.string,
   inputMode: PropTypes.oneOf([
     "email",
     "full-width-latin",
@@ -30,7 +34,10 @@ const propTypes = {
     "verbatim",
   ]),
   inputProps: PropTypes.object,
+  name: PropTypes.string,
+  placeholder: PropTypes.string,
   required: PropTypes.bool,
+  variant: PropTypes.oneOf(variantTypes),
 }
 
 export default propTypes
