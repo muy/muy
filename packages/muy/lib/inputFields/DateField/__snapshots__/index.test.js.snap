@@ -1,6 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<DateField /> component renders correctly 1`] = `
+exports[`<DateField /> component renders correctly with label prop 1`] = `
+<div
+  className="MuiFormControl-root MuiTextField-root"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="date"
+    id="date-label"
+  >
+    Date Label Text
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+  >
+    <input
+      aria-invalid={false}
+      autoCapitalize="none"
+      autoCorrect="off"
+      autoFocus={false}
+      className="MuiInputBase-input MuiInput-input"
+      data-name="date"
+      disabled={false}
+      id="date"
+      name="date"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={false}
+      size={10}
+      type="date"
+    />
+  </div>
+</div>
+`;
+
+exports[`<DateField /> component renders correctly with no props 1`] = `
 <div
   className="MuiFormControl-root MuiTextField-root"
 >
