@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import TextField from "@material-ui/core/TextField"
+import propTypes, { variantTypes } from "../propTypes.js"
 
 const DateField = ({
   id,
@@ -13,48 +14,58 @@ const DateField = ({
   placeholder,
   required,
   variant,
-}) => (
-  <TextField
-    id={id}
-    label={label}
-    InputLabelProps={{
-      shrink: true,
-      ...InputLabelProps,
-    }}
-    inputProps={{
-      "aria-required": required,
-      autoCapitalize: "none",
-      autoCorrect: "off",
-      "data-name": name,
-      max,
-      min,
-      size: 10,
-      ...inputProps,
-    }}
-    name={name}
-    placeholder={placeholder}
-    required={required}
-    type={"date"}
-    variant={variant}
-  />
-)
+}) => {
+  if (variant && !variantTypes.includes(variant)) {
+    throw new Error(
+      `Invalid variant prop value. Please provide one of these values: ${variantTypes.join(
+        ", "
+      )}`
+    )
+  }
+  return (
+    <TextField
+      id={id}
+      label={label}
+      InputLabelProps={{
+        shrink: true,
+        ...InputLabelProps,
+      }}
+      inputProps={{
+        "aria-required": required,
+        autoCapitalize: "none",
+        autoCorrect: "off",
+        "data-name": name,
+        max,
+        min,
+        size: 10,
+        ...inputProps,
+      }}
+      name={name}
+      placeholder={placeholder}
+      required={required}
+      type={"date"}
+      variant={variant}
+    />
+  )
+}
 
 export default DateField
 
 DateField.defaultProps = {
   id: "date",
   name: "date",
+  variant: "standard",
 }
 
 DateField.propTypes = {
-  id: PropTypes.string,
+  id: propTypes.id,
   InputLabelProps: PropTypes.object,
   inputProps: PropTypes.object,
-  label: PropTypes.string,
+  label: propTypes.label,
   max: PropTypes.string,
   min: PropTypes.string,
-  name: PropTypes.string,
-  placeholder: PropTypes.string,
-  required: PropTypes.bool,
-  variant: PropTypes.string,
+  name: propTypes.name,
+  placeholder: propTypes.placeholder,
+  required: propTypes.required,
+  variant: propTypes.variant,
 }

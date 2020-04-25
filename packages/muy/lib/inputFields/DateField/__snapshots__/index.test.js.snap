@@ -1,6 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<DateField /> component renders correctly with label prop 1`] = `
+exports[`<DateField /> component should render correctly with 'outlined' variant 1`] = `
+<div
+  className="MuiFormControl-root MuiTextField-root"
+>
+  <div
+    className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+    onClick={[Function]}
+  >
+    <input
+      aria-invalid={false}
+      autoCapitalize="none"
+      autoCorrect="off"
+      autoFocus={false}
+      className="MuiInputBase-input MuiOutlinedInput-input"
+      data-name="date"
+      disabled={false}
+      id="date"
+      name="date"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={false}
+      size={10}
+      type="date"
+    />
+    <fieldset
+      aria-hidden={true}
+      className="PrivateNotchedOutline-root-73 MuiOutlinedInput-notchedOutline"
+      style={
+        Object {
+          "paddingLeft": 8,
+        }
+      }
+    >
+      <legend
+        className="PrivateNotchedOutline-legend-74"
+        style={
+          Object {
+            "width": 0.01,
+          }
+        }
+      >
+        <span
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "&#8203;",
+            }
+          }
+        />
+      </legend>
+    </fieldset>
+  </div>
+</div>
+`;
+
+exports[`<DateField /> component should render correctly with label prop 1`] = `
 <div
   className="MuiFormControl-root MuiTextField-root"
 >
@@ -38,7 +94,7 @@ exports[`<DateField /> component renders correctly with label prop 1`] = `
 </div>
 `;
 
-exports[`<DateField /> component renders correctly with no props 1`] = `
+exports[`<DateField /> component should render correctly with no props 1`] = `
 <div
   className="MuiFormControl-root MuiTextField-root"
 >
