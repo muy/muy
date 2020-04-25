@@ -12,7 +12,7 @@ const DateField = ({
   name,
   placeholder,
   required,
-  ...props
+  variant,
 }) => (
   <TextField
     id={id}
@@ -35,7 +35,7 @@ const DateField = ({
     placeholder={placeholder}
     required={required}
     type={"date"}
-    {...props}
+    variant={variant}
   />
 )
 
@@ -56,4 +56,5 @@ DateField.propTypes = {
   name: PropTypes.string,
   placeholder: PropTypes.string,
   required: PropTypes.bool,
+  variant: PropTypes.string,
 }
