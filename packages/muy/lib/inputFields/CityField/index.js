@@ -10,12 +10,15 @@ const CityField = ({
   id,
   inputMode,
   inputProps,
+  label,
   minLength,
   name,
   required,
+  ...props
 }) => (
   <TextField
     autoComplete={autoComplete}
+    label={label}
     id={id}
     inputProps={{
       autoCapitalize,
@@ -29,6 +32,7 @@ const CityField = ({
     }}
     name={name}
     required={required}
+    {...props}
   />
 )
 
@@ -52,6 +56,7 @@ CityField.propTypes = {
   id: PropTypes.string,
   inputMode: PropTypes.string,
   inputProps: PropTypes.object,
+  label: PropTypes.string,
   minLength: PropTypes.number,
   name: PropTypes.string,
   required: PropTypes.bool,

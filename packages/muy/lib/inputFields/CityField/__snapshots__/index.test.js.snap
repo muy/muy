@@ -1,6 +1,48 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<CityField /> field should render correctly 1`] = `
+exports[`<CityField /> field should render correctly with label 1`] = `
+<div
+  className="MuiFormControl-root MuiTextField-root"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+    data-shrink={false}
+    htmlFor="city"
+    id="city-label"
+  >
+    City Field Label Text
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+  >
+    <input
+      aria-invalid={false}
+      autoCapitalize="words"
+      autoComplete="address-level-2"
+      autoCorrect="off"
+      autoFocus={false}
+      className="MuiInputBase-input MuiInput-input"
+      data-name="city"
+      disabled={false}
+      id="city"
+      inputMode="latin"
+      minLength={3}
+      name="city"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={false}
+      size={50}
+      tabIndex={0}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`<CityField /> field should render correctly with no props 1`] = `
 <div
   className="MuiFormControl-root MuiTextField-root"
 >
