@@ -8,6 +8,7 @@ describe("Main module", () => {
     "CityField",
     "DateField",
     "EmailField",
+    "FigureCaption",
     "FileInput",
     "Image",
     "NameField",

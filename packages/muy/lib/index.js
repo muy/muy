@@ -13,6 +13,7 @@ import EmbedGoogleMap from "./EmbedGoogleMap"
 import Fieldset from "./Fieldset"
 import Figure from "./Figure"
 import FileInput from "./inputFields/FileInput"
+import FigureCaption from "./FigureCaption"
 import Footer from "./Footer"
 import Form from "./Form"
 import GatsbyLink from "./GatsbyLink"
@@ -57,6 +58,7 @@ export {
   EmbedGoogleMap,
   Fieldset,
   Figure,
+  FigureCaption,
   FileInput,
   Footer,
   Form,
