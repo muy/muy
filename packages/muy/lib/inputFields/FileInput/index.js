@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 const FileInput = ({ accept, id, name, ...props }) => (
-  <input id={id} name={name} type="file" {...props} />
+  <input accept={accept} id={id} name={name} type="file" {...props} />
 )
 
 export default FileInput
