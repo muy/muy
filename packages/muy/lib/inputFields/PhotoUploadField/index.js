@@ -2,18 +2,16 @@ import React from "react"
 import PropTypes from "prop-types"
 import FileInput from "../FileInput"
 
-const PhotoUploadField = ({ acceptPDF, ...props }) => {
-  const accept = ["image/gif", "image/jpeg", "image/png"]
-  acceptPDF === true && accept.push("application/pdf,")
-  return <FileInput accept={accept.join(" ")} {...props} />
+const PhotoUploadField = ({ capture, ...props }) => {
+  return <FileInput accept={"image/*"} capture={capture} {...props} />
 }
 
 export default PhotoUploadField
 
 PhotoUploadField.defaultProps = {
-  acceptPDF: false,
+  capture: "environment",
 }
 
 PhotoUploadField.propTypes = {
-  acceptPDF: PropTypes.bool,
+  capture: PropTypes.oneOf(["environment", "user"]),
 }
