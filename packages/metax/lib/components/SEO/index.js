@@ -36,12 +36,16 @@ const SEO = ({ siteMetadata, ...props }) => {
     titleItemProp,
     titleTemplate,
   } = mergedProps
+
+  const helmetLinkProps = Object.values(linkProps).concat(link || [])
+  const helmetMetaProps = Object.values(metaProps).concat(meta || [])
+
   return (
     <Helmet
       defer={false}
       htmlAttributes={htmlAttributes({ lang, itemScope, itemType })}
-      link={Object.values(linkProps).concat(link)}
-      meta={Object.values(metaProps).concat(meta)}
+      link={helmetLinkProps}
+      meta={helmetMetaProps}
       title={title}
       titleAttributes={titleAttributes({ lang, itemProp: titleItemProp })}
       titleTemplate={titleTemplate}
@@ -54,6 +58,7 @@ export default SEO
 SEO.defaultProps = {
   images: [],
   itemType: htmlAttributes.defaultProps.itemType,
+  link: [],
   meta: [],
   siteMetadata: {},
   type: ogTypeMeta.defaultProps.content,
