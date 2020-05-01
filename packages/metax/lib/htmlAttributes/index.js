@@ -7,7 +7,7 @@ const defaultProps = {
 
 const htmlAttributes = ({ itemScope, itemType, lang } = defaultProps) => ({
   itemScope,
-  itemType: itemScope && itemType,
+  itemType,
   lang,
 })
 
