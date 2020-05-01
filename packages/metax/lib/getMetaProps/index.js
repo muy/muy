@@ -29,6 +29,7 @@ import fbProfileIdMeta from "../meta/fbProfileIdMeta"
 import twitterImageMeta from "../meta/twitterImageMeta"
 import imageAltMeta from "../meta/imageAltMeta"
 import revisitAfterMeta from "../meta/revisitAfterMeta"
+import dcTitleMeta from "../meta/dcTitleMeta"
 
 const getMetaProps = (props = {}) => {
   let metaProps = {}
@@ -37,6 +38,7 @@ const getMetaProps = (props = {}) => {
     articleSection,
     audio,
     author,
+    dcTitle = props.title,
     description,
     determiner,
     distribution,
@@ -48,6 +50,7 @@ const getMetaProps = (props = {}) => {
     images = [],
     keywords,
     googleSiteVerification,
+    lang,
     locale,
     localeAlternate = [],
     revisitAfter,
@@ -74,6 +77,7 @@ const getMetaProps = (props = {}) => {
   }
 
   author && (metaProps.author = authorMeta({ content: author }))
+  dcTitle && (metaProps.dcTitle = dcTitleMeta({ content: dcTitle, lang }))
 
   description &&
     (metaProps.description = descriptionMeta({ content: description }))
