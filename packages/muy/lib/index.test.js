@@ -5,6 +5,7 @@ describe("Main module", () => {
     "BackgroundVideo",
     "BackToTopButton",
     "BackToTopLink",
+    "Canvas",
     "CityField",
     "DateField",
     "EmailField",

@@ -6,6 +6,7 @@ import BackToTopLink from "./BackToTop/BackToTopLink"
 import BirthdayInput from "./inputFields/BirthdayInput"
 import Blockquote from "./Blockquote"
 import CarPlateField from "./inputFields/CarPlateField"
+import Canvas from "./Canvas"
 import CityField from "./inputFields/CityField"
 import DateField from "./inputFields/DateField"
 import EmailField from "./inputFields/EmailField"
@@ -51,6 +52,7 @@ export {
   BackToTopLink,
   BirthdayInput,
   Blockquote,
+  Canvas,
   CarPlateField,
   CityField,
   DateField,

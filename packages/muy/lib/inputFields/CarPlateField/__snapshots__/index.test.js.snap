@@ -2,6 +2,7 @@
 
 exports[`<CarPlateField /> field should render correctly 1`] = `
 <div
+  autoCorrect="off"
   className="MuiFormControl-root MuiTextField-root"
 >
   <div
@@ -10,11 +11,17 @@ exports[`<CarPlateField /> field should render correctly 1`] = `
   >
     <input
       aria-invalid={false}
+      autoCapitalize="characters"
+      autoComplete="off"
       autoFocus={false}
       className="MuiInputBase-input MuiInput-input makeStyles-input-1"
+      data-name="carPlate"
       disabled={false}
+      id="carPlate"
+      inputMode="verbatim"
       maxLength={7}
       minLength={7}
+      name="carPlate"
       onAnimationStart={[Function]}
       onBlur={[Function]}
       onChange={[Function]}
