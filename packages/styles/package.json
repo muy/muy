@@ -41,7 +41,7 @@
   "devDependencies": {
     "@babel/preset-env": "7.9.6",
     "babel-jest": "25.5.1",
-    "jest": "25.5.3",
+    "jest": "25.5.4",
     "rollup": "2.7.6"
   },
   "gitHead": "a03ce3697e0d27d39b2c6fe956953caf70401ef6",
