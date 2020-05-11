@@ -25,6 +25,7 @@
     "preversion": "lerna run preversion",
     "prewatch": "npm run bootstrap",
     "test": "lerna run test",
+    "testu": "lerna run testu",
     "version": "lerna run version",
     "watch": "lerna exec --parallel -- rollup -f cjs -i src/index.js -o dist/index.js -w"
   },
