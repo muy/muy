@@ -3,4 +3,9 @@ gatsby-starter-muy/.cache
 gatsby-starter-muy/node_modules
 gatsby-starter-muy/public
 gatsby-starter-muy/package-lock.json
+packages/gatsby-plugin-metax/package.json
+packages/metax/package.json
+packages/muy/package.json
+packages/styles/package.json
+package.json
 package-lock.json
