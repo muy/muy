@@ -14,7 +14,6 @@ describe("Use MDX components hook", () => {
   })
 
   const expectedProperties = [
-    "a",
     "blockquote",
     "h1",
     "h2",
@@ -26,16 +25,27 @@ describe("Use MDX components hook", () => {
     "img",
     "li",
     "p",
-    "table",
     "td",
     "tr",
     "ul",
   ]
 
-  describe.each(expectedProperties)("%p property", (property) => {
-    it("should be a component and render correctly", () => {
+  const expectedPropertiesWithChildren = ["a", "table"]
+
+  describe.each(expectedProperties)("component for %p", (property) => {
+    it("should render correctly without props", () => {
       const Component = components[property]
       rendersCorrectly(<Component />)
     })
   })
+
+  describe.each(expectedPropertiesWithChildren)(
+    "component for %p",
+    (property) => {
+      it("should render correctly with children", () => {
+        const Component = components[property]
+        rendersCorrectly(<Component>Test children</Component>)
+      })
+    }
+  )
 })
