@@ -14,7 +14,9 @@ exports[`<SiteTitle /> should render correctly 1`] = `
     onMouseEnter={[Function]}
     style={Object {}}
     target="_self"
-  />
+  >
+    Test site title
+  </a>
 </h1>
 `;
 
