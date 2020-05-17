@@ -8,7 +8,9 @@ const PureGatsbyLink = (
 ) => (
   <Link
     color={color}
-    component={GatsbyLinkComponent}
+    component={React.forwardRef((props, ref) => (
+      <GatsbyLinkComponent ref={ref} {...props} />
+    ))}
     ref={ref}
     rel={target === "_blank" ? `noopener noreferer ${rel}` : rel}
     target={target}
