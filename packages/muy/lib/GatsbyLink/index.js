@@ -2,21 +2,14 @@ import React from "react"
 import Link from "@material-ui/core/Link"
 import { Link as GatsbyLinkComponent } from "gatsby"
 
-const defaultProps = {
-  target: "_self",
-}
-
-const GatsbyLink = ({
-  color,
-  rel,
-  target = defaultProps.target,
-  to,
-  underline,
-  ...props
-}) => (
+const PureGatsbyLink = (
+  { color, rel, target, to, underline, ...props },
+  ref
+) => (
   <Link
     color={color}
     component={GatsbyLinkComponent}
+    ref={ref}
     rel={target === "_blank" ? `noopener noreferer ${rel}` : rel}
     target={target}
     to={to}
@@ -25,4 +18,10 @@ const GatsbyLink = ({
   />
 )
 
+const GatsbyLink = React.forwardRef(PureGatsbyLink)
+
 export default GatsbyLink
+
+GatsbyLink.defaultProps = {
+  target: "_self",
+}
