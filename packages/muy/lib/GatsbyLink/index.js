@@ -6,7 +6,7 @@ const GatsbyLink = ({ color, rel, target, to, underline, ...props }) => (
   <Link
     color={color}
     component={React.forwardRef((props, ref) => (
-      <GatsbyLinkComponent ref={ref} {...props} />
+      <GatsbyLinkComponent {...props} />
     ))}
     rel={target === "_blank" ? `noopener noreferer ${rel}` : rel}
     target={target}
