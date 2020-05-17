@@ -5,14 +5,6 @@ import makeStyles from "@material-ui/core/styles/makeStyles"
 import PropTypes from "prop-types"
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    marginInlineStart: 0,
-    marginInlineEnd: 0,
-    paddingBlockStart: 0,
-    paddingBlockEnd: 0,
-    paddingInlineStart: 0,
-    paddingInlineEnd: 0,
-  },
   borderNone: {
     borderStyle: "none",
     borderWidth: 0,
@@ -21,9 +13,17 @@ const useStyles = makeStyles((theme) => ({
     borderColor: theme.palette.divider,
     borderStyle: "solid",
   },
+  root: {
+    marginInlineStart: 0,
+    marginInlineEnd: 0,
+    paddingBlockStart: 0,
+    paddingBlockEnd: 0,
+    paddingInlineStart: 0,
+    paddingInlineEnd: 0,
+  },
 }))
 
-const Fieldset = ({ className, variant, ...props }) => {
+const PureFieldset = ({ className, variant, ...props }, ref) => {
   const classes = useStyles()
   return (
     <Box
@@ -41,10 +41,13 @@ const Fieldset = ({ className, variant, ...props }) => {
       pb={variant === "borderNone" ? 0 : 1.25}
       pr={variant === "borderNone" ? 0 : 1}
       pt={variant === "borderNone" ? 0 : 0.5}
+      ref={ref}
       {...props}
     />
   )
 }
+
+const Fieldset = React.forwardRef(PureFieldset)
 
 export default Fieldset
 
