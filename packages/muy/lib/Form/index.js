@@ -2,11 +2,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import Box from "@material-ui/core/Box"
 
-const Form = ({ id, name, ...props }) => (
+const PureForm = ({ display, id, name, ...props }, ref) => (
   <Box
     component="form"
     data-name={name}
-    display="block"
+    display={display}
     mb={3}
     mr={0}
     mt={0}
@@ -17,13 +17,17 @@ const Form = ({ id, name, ...props }) => (
   />
 )
 
+const Form = React.forwardRef(PureForm)
+
 export default Form
 
 Form.defaultProps = {
+  display: "block",
   id: "form",
   name: "form",
 }
 
 Form.propTypes = {
+  display: PropTypes.string,
   name: PropTypes.string,
 }
