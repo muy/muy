@@ -7,9 +7,9 @@ describe("<SiteTitle />", () => {
     rendersCorrectly(<SiteTitle>Test site title</SiteTitle>)
   })
   it("should render correctly with inherit color", () => {
-    rendersCorrectly(<SiteTitle color={"inherit"} />)
+    rendersCorrectly(<SiteTitle color={"inherit"}>Test site title</SiteTitle>)
   })
   it("should render correctly with primary color", () => {
-    rendersCorrectly(<SiteTitle color={"primary"} />)
+    rendersCorrectly(<SiteTitle color={"primary"}>Test site title</SiteTitle>)
   })
 })

@@ -34,7 +34,9 @@ exports[`<SiteTitle /> should render correctly with inherit color 1`] = `
     onMouseEnter={[Function]}
     style={Object {}}
     target="_self"
-  />
+  >
+    Test site title
+  </a>
 </h1>
 `;
 
@@ -52,6 +54,8 @@ exports[`<SiteTitle /> should render correctly with primary color 1`] = `
     onMouseEnter={[Function]}
     style={Object {}}
     target="_self"
-  />
+  >
+    Test site title
+  </a>
 </h1>
 `;
