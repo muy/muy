@@ -1,9 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const FileInput = ({ accept, id, name, ...props }) => (
-  <input accept={accept} id={id} name={name} type="file" {...props} />
+const PureFileInput = ({ accept, id, name, ...props }, ref) => (
+  <input accept={accept} id={id} name={name} ref={ref} type="file" {...props} />
 )
+
+const FileInput = React.forwardRef(PureFileInput)
 
 export default FileInput
 
