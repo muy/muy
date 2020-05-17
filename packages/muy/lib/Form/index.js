@@ -13,6 +13,7 @@ const PureForm = ({ display, id, name, ...props }, ref) => (
     id={id}
     name={name}
     p={0}
+    ref={ref}
     {...props}
   />
 )
