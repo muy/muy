@@ -43,7 +43,7 @@
     "lerna": "3.21.0",
     "lerna-changelog": "1.0.1",
     "prettier": "2.0.5",
-    "rollup": "2.10.2"
+    "rollup": "2.10.8"
   },
   "husky": {
     "hooks": {
