@@ -2,6 +2,6 @@
 
 exports[`<Footer /> field should render correctly 1`] = `
 <footer
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;

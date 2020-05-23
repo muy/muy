@@ -2,6 +2,6 @@
 
 exports[`<Header /> field should render correctly 1`] = `
 <header
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;

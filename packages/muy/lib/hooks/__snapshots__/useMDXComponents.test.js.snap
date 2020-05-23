@@ -12,7 +12,7 @@ exports[`Use MDX components hook component for "a" should render correctly with 
 
 exports[`Use MDX components hook component for "blockquote" should render correctly without props 1`] = `
 <blockquote
-  className="MuiBox-root MuiBox-root-3 makeStyles-root-1"
+  className="MuiBox-root MuiBox-root-2 makeStyles-root-1"
 />
 `;
 
@@ -60,7 +60,7 @@ exports[`Use MDX components hook component for "hr" should render correctly with
 
 exports[`Use MDX components hook component for "img" should render correctly without props 1`] = `
 <img
-  className="makeStyles-root-41"
+  className="makeStyles-root-3"
 />
 `;
 

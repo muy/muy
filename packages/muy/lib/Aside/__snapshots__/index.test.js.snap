@@ -2,6 +2,6 @@
 
 exports[`<Aside /> component renders correctly 1`] = `
 <aside
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;

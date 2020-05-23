@@ -6,7 +6,7 @@ exports[`<OptinCheckbox /> component should render correctly with no props 1`] =
 >
   <span
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-13 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}
@@ -25,7 +25,7 @@ exports[`<OptinCheckbox /> component should render correctly with no props 1`] =
     >
       <input
         aria-required={false}
-        className="PrivateSwitchBase-input-16"
+        className="PrivateSwitchBase-input-4"
         data-indeterminate={false}
         data-name="optin"
         defaultChecked={false}
@@ -37,7 +37,7 @@ exports[`<OptinCheckbox /> component should render correctly with no props 1`] =
         type="checkbox"
       />
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root"
         focusable="false"
         viewBox="0 0 24 24"

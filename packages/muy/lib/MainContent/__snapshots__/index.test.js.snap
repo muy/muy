@@ -2,7 +2,7 @@
 
 exports[`<MainContent/> component should render correctly with no props 1`] = `
 <main
-  className="MuiBox-root MuiBox-root-3 makeStyles-root-1"
+  className="MuiBox-root MuiBox-root-2 makeStyles-root-1"
   id="content"
   role="main"
   tabIndex={-1}

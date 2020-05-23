@@ -2,6 +2,6 @@
 
 exports[`<Summary /> component should render correctly with no props 1`] = `
 <summary
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;

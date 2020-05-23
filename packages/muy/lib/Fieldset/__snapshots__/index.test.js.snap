@@ -2,18 +2,18 @@
 
 exports[`<Fieldset /> renders correctly with borderNone variant 1`] = `
 <fieldset
-  className="MuiBox-root MuiBox-root-6 makeStyles-root-3 makeStyles-borderNone-1"
+  className="MuiBox-root MuiBox-root-5 makeStyles-root-3 makeStyles-borderNone-1"
 />
 `;
 
 exports[`<Fieldset /> renders correctly with borderSolid variant 1`] = `
 <fieldset
-  className="MuiBox-root MuiBox-root-7 makeStyles-root-3 makeStyles-borderSolid-2"
+  className="MuiBox-root MuiBox-root-6 makeStyles-root-3 makeStyles-borderSolid-2"
 />
 `;
 
 exports[`<Fieldset /> renders correctly with no props 1`] = `
 <fieldset
-  className="MuiBox-root MuiBox-root-5 makeStyles-root-3"
+  className="MuiBox-root MuiBox-root-4 makeStyles-root-3"
 />
 `;

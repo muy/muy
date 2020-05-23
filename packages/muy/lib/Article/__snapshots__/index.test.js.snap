@@ -2,6 +2,6 @@
 
 exports[`<Article /> renders correctly 1`] = `
 <article
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;

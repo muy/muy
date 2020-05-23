@@ -28,7 +28,7 @@ exports[`<DateField /> component should render correctly with 'outlined' variant
     />
     <fieldset
       aria-hidden={true}
-      className="PrivateNotchedOutline-root-73 MuiOutlinedInput-notchedOutline"
+      className="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
       style={
         Object {
           "paddingLeft": 8,
@@ -36,7 +36,7 @@ exports[`<DateField /> component should render correctly with 'outlined' variant
       }
     >
       <legend
-        className="PrivateNotchedOutline-legend-74"
+        className="PrivateNotchedOutline-legend-2"
         style={
           Object {
             "width": 0.01,

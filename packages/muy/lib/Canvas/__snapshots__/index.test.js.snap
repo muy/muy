@@ -2,6 +2,6 @@
 
 exports[`<Canvas /> component renders correctly 1`] = `
 <canvas
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;

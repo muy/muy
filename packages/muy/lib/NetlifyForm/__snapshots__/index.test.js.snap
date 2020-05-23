@@ -2,7 +2,7 @@
 
 exports[`<NetlifyForm/> component should render correctly with no props 1`] = `
 <form
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
   data-name="contact"
   data-netlify="true"
   data-netlify-honeypot="contact-bot-field"

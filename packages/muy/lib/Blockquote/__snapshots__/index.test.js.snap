@@ -2,6 +2,6 @@
 
 exports[`<Blockquote /> renders correctly 1`] = `
 <blockquote
-  className="MuiBox-root MuiBox-root-3 makeStyles-root-1"
+  className="MuiBox-root MuiBox-root-2 makeStyles-root-1"
 />
 `;

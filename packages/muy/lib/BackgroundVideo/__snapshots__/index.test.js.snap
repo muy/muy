@@ -2,11 +2,11 @@
 
 exports[`<BackgroundVideo /> should render correctly 1`] = `
 <div
-  className="MuiBox-root MuiBox-root-3 MuyBackgroundVideoContainer"
+  className="MuiBox-root MuiBox-root-2 MuyBackgroundVideoContainer"
 >
   <video
     autoPlay={true}
-    className="MuiBox-root MuiBox-root-4 makeStyles-root-1"
+    className="MuiBox-root MuiBox-root-3 makeStyles-root-1"
     loop={true}
     muted={true}
   />

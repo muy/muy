@@ -2,6 +2,6 @@
 
 exports[`<Video /> should render correctly 1`] = `
 <video
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;

@@ -2,6 +2,6 @@
 
 exports[`<FigureCaption /> component renders correctly 1`] = `
 <figcaption
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;

@@ -2,22 +2,22 @@
 
 exports[`<Question /> component renders correctly 1`] = `
 <div
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
   itemProp="mainEntity"
   itemScope={true}
   itemType="https://schema.org/Question"
 >
   <dt
-    className="MuiBox-root MuiBox-root-3"
+    className="MuiBox-root MuiBox-root-2"
   />
   <dd
-    className="MuiBox-root MuiBox-root-4"
+    className="MuiBox-root MuiBox-root-3"
     itemProp="acceptedAnswer"
     itemScope={true}
     itemType="https://schema.org/Answer"
   >
     <div
-      className="MuiBox-root MuiBox-root-5"
+      className="MuiBox-root MuiBox-root-4"
       itemProp="text"
     />
   </dd>

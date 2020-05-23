@@ -3,7 +3,7 @@
 exports[`<EmbedGoogleMap /> field should render correctly 1`] = `
 <iframe
   allowFullScreen={true}
-  className="MuiBox-root MuiBox-root-3"
+  className="MuiBox-root MuiBox-root-2"
   frameBorder={0}
   src="https://www.google.com/maps/embed/v1/place?q=undefined&key=undefined"
 />

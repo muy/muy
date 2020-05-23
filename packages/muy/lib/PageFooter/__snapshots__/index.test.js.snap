@@ -2,7 +2,7 @@
 
 exports[`<PageFooter /> component should render correctly 1`] = `
 <footer
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
   itemScope={true}
   itemType="https://schema.org/WPFooter"
   role="contentinfo"

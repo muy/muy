@@ -2,6 +2,6 @@
 
 exports[`<QuestionText /> component renders correctly 1`] = `
 <dt
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;

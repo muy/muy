@@ -2,6 +2,6 @@
 
 exports[`<Figure /> field should render correctly 1`] = `
 <figure
-  className="MuiBox-root MuiBox-root-2"
+  className="MuiBox-root MuiBox-root-1"
 />
 `;
