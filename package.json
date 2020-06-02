@@ -19,12 +19,12 @@
     "hook:postcheckout": "npm run bootstrap",
     "hook:precommit": "npm run alex && npm test",
     "hook:prepush": "npm run alex && npm test",
-    "postinstall": "npm run bootstrap",
     "prepare": "lerna run prepare",
     "pretest": "lerna run pretest",
     "preversion": "lerna run preversion",
     "prewatch": "npm run bootstrap",
     "test": "lerna run test",
+    "testb": "lerna run testb",
     "testu": "lerna run testu",
     "version": "lerna run version",
     "watch": "lerna exec --parallel -- rollup -f cjs -i src/index.js -o dist/index.js -w"
