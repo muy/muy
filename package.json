@@ -19,6 +19,7 @@
     "hook:postcheckout": "npm run bootstrap",
     "hook:precommit": "npm run alex && npm test",
     "hook:prepush": "npm run alex && npm test",
+    "prepare": "lerna run prepare",
     "pretest": "lerna run pretest",
     "preversion": "lerna run preversion",
     "prewatch": "npm run bootstrap",
