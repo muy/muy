@@ -27,7 +27,8 @@
     "url": "git+https://github.com/muy/muy.git"
   },
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "testb": "exit 0"
   },
   "bugs": {
     "url": "https://github.com/muy/muy/issues"

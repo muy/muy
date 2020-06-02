@@ -1,11 +1,9 @@
-const ignorePatterns = ["/coverage/", "/dist/", "/node_modules/"]
+const base = require("../../jest.config.base")
 
 module.exports = {
-  collectCoverage: true,
-  coverageDirectory: "coverage",
-  coveragePathIgnorePatterns: ignorePatterns,
+  ...base,
+  displayName: "Muy",
   globals: { __PATH_PREFIX__: "" },
-  testPathIgnorePatterns: ignorePatterns,
-  transformIgnorePatterns: ignorePatterns,
+  name: "muy",
   setupFiles: [`<rootDir>/loadershim.js`],
 }

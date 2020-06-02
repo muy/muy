@@ -1,15 +1,11 @@
-const ignorePatterns = ["/dist/", "/node_modules/"]
+const base = require("../../jest.config.base")
 
 module.exports = {
-  collectCoverage: true,
-  coverageDirectory: "coverage",
-  coveragePathIgnorePatterns: ignorePatterns,
-  errorOnDeprecated: true,
+  ...base,
+  displayName: "@muy/styles",
+  name: "styles",
   testEnvironment: "node",
-  testPathIgnorePatterns: ignorePatterns,
   transform: {
     "^.+\\.[t|j]sx?$": "babel-jest",
   },
-  transformIgnorePatterns: ignorePatterns,
-  watchPathIgnorePatterns: ignorePatterns,
 }

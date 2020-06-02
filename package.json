@@ -16,11 +16,11 @@
     "changelog": "lerna-changelog",
     "deploy": "lerna publish",
     "format": "prettier --write packages/*/{lib,lib/**}/*.{js,jsx}",
+    "hook:postcheckout": "npm run bootstrap",
+    "hook:precommit": "npm run alex && npm test",
+    "hook:prepush": "npm run alex && npm test",
     "postinstall": "npm run bootstrap",
-    "postcheckout": "npm run bootstrap",
-    "precommit": "npm run alex && npm test",
     "prepare": "lerna run prepare",
-    "prepush": "npm run alex && npm test",
     "pretest": "lerna run pretest",
     "preversion": "lerna run preversion",
     "prewatch": "npm run bootstrap",
@@ -47,9 +47,9 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run precommit",
-      "pre-push": "npm run prepush",
-      "post-checkout": "npm run postcheckout"
+      "pre-commit": "npm run hook:precommit",
+      "pre-push": "npm run hook:prepush",
+      "post-checkout": "npm run hook:postcheckout"
     }
   },
   "changelog": {
