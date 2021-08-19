@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Footer /> field should render correctly 1`] = `
-<footer
-  className="MuiBox-root MuiBox-root-1"
-/>
-`;

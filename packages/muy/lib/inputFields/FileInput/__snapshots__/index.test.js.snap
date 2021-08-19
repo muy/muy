@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<FileInput /> field should render correctly 1`] = `
-<input
-  id="file"
-  name="file"
-  type="file"
-/>
-`;

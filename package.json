@@ -1,63 +1,12 @@
 {
-  "name": "muy",
-  "private": false,
-  "version": "0.0.0",
-  "description": "Muy main package",
-  "main": "dist/index.js",
-  "keywords": [
-    "muy"
-  ],
-  "author": "Muy",
-  "license": "ISC",
   "scripts": {
-    "alex": "alex .",
-    "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
-    "changelog": "lerna-changelog",
-    "deploy": "lerna publish",
-    "format": "prettier --write packages/*/{lib,lib/**}/*.{js,jsx}",
-    "hook:postcheckout": "npm run bootstrap",
-    "hook:precommit": "npm run alex && npm test",
-    "hook:prepush": "npm run alex && npm test",
-    "prepare": "lerna run prepare",
-    "pretest": "lerna run pretest",
-    "preversion": "lerna run preversion",
-    "prewatch": "npm run bootstrap",
-    "test": "lerna run test",
-    "testb": "lerna run testb",
-    "testu": "lerna run testu",
-    "version": "lerna run version",
-    "watch": "lerna exec --parallel -- rollup -f cjs -i src/index.js -o dist/index.js -w"
+    "bit-start": "bit start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/muy/muy.git"
-  },
-  "bugs": {
-    "url": "https://github.com/muy/muy/issues"
-  },
-  "homepage": "https://github.com/muy/muy#readme",
   "devDependencies": {
-    "alex": "8.1.1",
-    "husky": "4.2.5",
-    "lerna": "3.22.0",
-    "lerna-changelog": "1.0.1",
-    "prettier": "2.0.5",
-    "rollup": "2.11.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run hook:precommit",
-      "pre-push": "npm run hook:prepush",
-      "post-checkout": "npm run hook:postcheckout"
-    }
-  },
-  "changelog": {
-    "labels": {
-      "bug": "Bug Fix",
-      "dependencies": "Dependency update",
-      "documentation": "Docs",
-      "enhancement": "New Feature"
-    }
+    "@material-ui/core": "4.11.3",
+    "@testing-library/react": "11.2.6",
+    "@types/jest": "26.0.22",
+    "prop-types": "15.7.2",
+    "react": "17.0.2"
   }
 }

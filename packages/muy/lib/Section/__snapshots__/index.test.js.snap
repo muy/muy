@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Section /> component should render correctly with no props 1`] = `
-<section
-  className="MuiBox-root MuiBox-root-1"
-/>
-`;

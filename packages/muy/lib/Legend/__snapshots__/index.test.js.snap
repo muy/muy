@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Legend/> component should render correctly with no props 1`] = `
-<legend
-  className="MuiBox-root MuiBox-root-2 makeStyles-root-1"
-/>
-`;

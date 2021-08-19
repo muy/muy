@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main-content with no props should match snapshot 1`] = `
+<main
+  className="MainContent-root-1"
+  id="content"
+  role="main"
+  tabIndex={-1}
+/>
+`;

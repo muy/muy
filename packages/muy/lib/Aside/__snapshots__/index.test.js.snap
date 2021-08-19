@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Aside /> component renders correctly 1`] = `
-<aside
-  className="MuiBox-root MuiBox-root-1"
-/>
-`;

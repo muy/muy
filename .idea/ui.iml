@@ -2,16 +2,17 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/packages/gatsby-starter-muy/.cache" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/gatsby-starter-muy/public" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/metax/coverage" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/metax/dist" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/muy/coverage" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/muy/dist" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/styles/coverage" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/styles/dist" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/themes/coverage" />
-      <excludeFolder url="file://$MODULE_DIR$/packages/themes/dist" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/gatsby-starter-muy/.cache" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/gatsby-starter-muy/public" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/metax/coverage" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/metax/dist" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/muy/coverage" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/muy/dist" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/styles/coverage" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/styles/dist" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/themes/coverage" />
+      <excludeFolder url="file://$APPLICATION_CONFIG_DIR$/scratches/Muy/packages/themes/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/public" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

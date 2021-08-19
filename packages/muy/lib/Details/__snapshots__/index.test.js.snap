@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Details /> component renders correctly 1`] = `
-<details
-  className="MuiBox-root MuiBox-root-1"
-/>
-`;
