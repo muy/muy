@@ -7,7 +7,6 @@ import mergeProps from "../../mergeProps"
 import ogTypeMeta from "../../meta/ogTypeMeta"
 import htmlAttributes from "../../htmlAttributes"
 import authorMeta from "../../meta/authorMeta"
-import descriptionMeta from "../../meta/descriptionMeta"
 import titleAttributes from "../../titleAttributes"
 import getLinkProps from "../../getLinkProps"
 
@@ -67,7 +66,8 @@ SEO.defaultProps = {
 
 SEO.propTypes = {
   author: authorMeta.propTypes.content,
-  description: descriptionMeta.propTypes.content,
+  // Optional when siteMetadata.description is provided (see mergeProps).
+  description: PropTypes.string,
   images: PropTypes.arrayOf(PropTypes.object),
   itemType: htmlAttributes.propTypes.itemType,
   lang: htmlAttributes.propTypes.lang,

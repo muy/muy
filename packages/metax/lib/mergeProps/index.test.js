@@ -24,4 +24,24 @@ describe("Meta", () => {
       expect(actual).not.toHaveProperty("author")
     })
   })
+
+  describe("description", () => {
+    it("falls back to siteMetadata.description when description is omitted", () => {
+      const actual = mergeProps({
+        siteMetadata: { description: "Site default description" },
+        title: "Home",
+      })
+      expect(actual.description).toEqual("Site default description")
+      expect(actual.siteDescription).toEqual("Site default description")
+    })
+
+    it("prefers an explicit description prop", () => {
+      const actual = mergeProps({
+        description: "Page description",
+        siteMetadata: { description: "Site default description" },
+        title: "Home",
+      })
+      expect(actual.description).toEqual("Page description")
+    })
+  })
 })
