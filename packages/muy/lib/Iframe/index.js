@@ -1,4 +1,5 @@
 import React from "react"
+import clsx from "clsx"
 import makeStyles from "@material-ui/core/styles/makeStyles"
 import { objectFitCover } from "@muy/styles"
 import Box from "@material-ui/core/Box"
@@ -7,12 +8,12 @@ const useStyles = makeStyles((theme) => ({
   cover: objectFitCover,
 }))
 
-const Iframe = ({ title, variant, ...props }) => {
+const Iframe = ({ className, title, variant, ...props }) => {
   const classes = useStyles()
   return (
     <Box
       border={0}
-      className={variant === "cover" && classes.cover}
+      className={clsx(variant === "cover" && classes.cover, className)}
       component="iframe"
       display="inline"
       frameBorder={0}
